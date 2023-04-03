@@ -1,1 +1,20 @@
+ip_input.c B-Appliction       
+in O   
+BSD-derived B-     
+TCP/IP I-         
+implementations I-
+allows O
+remote B-Attacker 
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType 
+of I-VulType
+service I-Vultype 
+(crash or hang) O
+via O
+crafted B-Platform
+packets I-Platform
 
+"Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems."
