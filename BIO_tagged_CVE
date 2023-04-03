@@ -1,8 +1,8 @@
-ip_input.c B-App     
+ip_input.c B-Component    
 in O   
-BSD-derived B-     
-TCP/IP I-         
-implementations I-
+BSD-derived B-App 
+TCP/IP I-App          
+implementations I-App 
 allows O
 remote B-Attacker 
 attackers I-Attacker
@@ -14,8 +14,22 @@ of I-VulType
 service I-Vultype 
 (crash or hang) O
 via O
-crafted B-Platform
-packets I-Platform
+crafted B-Vector
+packets I-Vector
 
-"Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems."
+Buffer B-VulType  
+overflow I-VulType
+in O
+NFS B-App
+mountd I-App
+gives B-Impact
+root I-Impact
+access I-Impact
+to O
+remote B-Attacker
+attackers I-Attacker
+mostly O
+in O
+Linux B-Platform 
+systems I-Platform 
 
