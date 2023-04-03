@@ -6,7 +6,7 @@ App
 - Application 
 
 AppVer
-- Product version
+- App version
 
 Attacker 
 - Attacker type
