@@ -33,6 +33,145 @@ in O
 Linux B-Platform 
 systems I-Platform 
 
+Execute B-Impact
+commands I-Impact
+as I-Impact
+root I-Impact
+via O
+buffer B-VulType
+overflow I-VulType
+in O
+Tooltalk B-App
+database I-App
+server I-App
+rpc.ttdbserverd B-App
+
+MIME B-VulType
+buffer I-VulType
+overflow I-VulType
+in O
+email B-App
+clients I-App
+e.g. O
+Solaris B-App
+mailtool I-App
+and O
+Outlook B-App
+
+Arbitrary B-Impact
+command I-Impact
+execution I-Impact
+via O
+IMAP B-Vector
+buffer B-VulType
+overflow I-VulType
+in O
+authenticate B-Component
+command I-B-Component
+
+Buffer B-VulType
+overflow I-VulType
+in O
+POP B-App
+servers I-App
+based O
+on O
+BSD/Qualcomm's B-Component
+qpopper I-Component
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+gain B-Impact 
+root I-Impact
+access I-Impact
+using O
+a O
+long B-Vector 
+PASS I-Vector
+command I-Vector
+
+Information O
+from O
+SSL-encrypted B-Component
+sessions I-Component
+via O
+PKCS B-Vector
+
+Buffer B-VulType
+overflow I-VulType
+in O
+NIS+ B-App
+in O
+Sun's B-Component
+rpc.nisd I-Component
+program I-Component
+
+Inverse B-VulType
+query I-VulType
+buffer I-VulType
+overflow I-VulType
+in O
+BIND B-App 
+4.9 B-AppVer
+and O
+BIND B-App
+8 B-AppVer
+Releases I-AppVer
+
+Denial B-VulType
+of I-VulType
+Service I-VulType
+vulnerability I-VulType
+in O
+BIND B-App 
+8 B-AppVer
+Releases I-AppVer
+via O
+maliciously B-Vector
+formatted I-Vector
+DNS I-Vector
+messages I-Vector
+
+Denial B-VulType 
+of I-VulType
+Service I-VulType
+vulnerabilities I-VulType
+in O
+BIND B-App 
+4.9 B-AppVer
+and O
+BIND B-App
+8 B-AppVer
+Releases I-AppVer
+via O
+CNAME B-Vector
+record I-Vector
+and I-Vector
+zone I-Vector
+transfer I-Vector
+
+Some O
+web B-Component
+servers I-Component
+under O
+Microsoft B-Platform
+Windows I-Platform
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+bypass B-Impact
+access I-Impact
+restrictions I-Impact
+for O
+files B-Victim
+with O
+long B-Vector
+file I-Vector
+names I-Vector
+
+---
 SpectroSERVER 
 in  O
 Cabletron B-App
