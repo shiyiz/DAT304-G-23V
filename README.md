@@ -25,3 +25,5 @@ Impact
 
 Vector 
 - Inputs or processes to cause vulnerability
+
+Victim
