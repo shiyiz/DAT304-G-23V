@@ -33,4 +33,4 @@ Victim
 - Who or what get attacked
 
 Setting
-- such as installtion 
+- some bad settings, such as 'default installtion', wrong settings, etc.
