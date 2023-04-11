@@ -486,29 +486,54 @@ Manager I-App
 5.0 B.AppVer
 installs O
 a O
-directory 
+directory I-Component
 tree O
 with O
-insecure 
-permissions 
+insecure B-VulType
+permissions I-VulType
 which O
-allows 
-local 
-users 
+allows O
+local B-Attacker
+users I-Attacker
 to O
-replace 
+replace O
 a O
-privileged 
-executable 
+privileged B-Impact
+executable I-Impact
 (processd) O
 with O
 a O
-Trojan 
-horse 
+Trojan B-Attacker
+horse I-Attacker
 facilitating
 a O
 root
 or O
-Administrator 
-compromise
+Administrator B-Attacker
+compromise I-Attacker 
+
+Insecure B-VulType 
+Permissions I-VulType
+vulnerability O
+found O
+in O
+Extplorer B-App
+File I-App
+manager I-App
+eXtplorer I-App
+v.2.1.15 I-App
+allows O
+a O
+remote B-Attacker
+attacker I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+the O
+index.php B-Component
+compenent I-Component
+
+
 
