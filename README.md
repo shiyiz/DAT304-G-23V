@@ -2,8 +2,8 @@
 Component
 - Component including vulnerability
 
-Component
-
+ComponentVer
+- Component Version
 
 App
 - Application 
