@@ -2,6 +2,9 @@
 Component
 - Component including vulnerability
 
+Component
+
+
 App
 - Application 
 
@@ -27,3 +30,7 @@ Vector
 - Inputs or processes to cause vulnerability
 
 Victim
+- Who or what get attacked
+
+Setting
+- such as installtion 
