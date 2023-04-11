@@ -475,7 +475,36 @@ mount B-Impact
 brute I-Impact
 force I-Impact
 attacks I-Impact
-#11,2982,CVE-2001-0161
+
+The O
+caching B-Component
+module I-Component
+in O
+Netscape B-App
+Fasttrack I-App
+Server I-App
+4.1 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O 
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(resource exhaustion) B-VulType
+by O
+requesting B-Vector
+a I-Vector
+large I-Vector
+number I-Vector
+of I-Vector
+non-existent I-Vector
+URLs I-Vector
+. O
+
+
 ---
 SpectroSERVER 
 in  O
@@ -521,7 +550,7 @@ Extplorer B-App
 File I-App
 manager I-App
 eXtplorer I-App
-v.2.1.15 I-AppVer
+v.2.1.15 B-AppVer
 allows O
 a O
 remote B-Attacker
