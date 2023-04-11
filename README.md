@@ -20,8 +20,8 @@ VulType
 Platform
 - Platform
 
-Product version
-- Product version
+PlatformVer
+- Platform Version
 
 Impact 
 - Impact caused by vulnerability exploits
