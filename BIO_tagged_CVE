@@ -503,11 +503,11 @@ executable I-Impact
 (processd) O
 with O
 a O
-Trojan B-Attacker
-horse I-Attacker
-facilitating
+Trojan B-Vector
+horse I-Vector
+facilitating I-Vector
 a O
-root
+root O
 or O
 Administrator B-Attacker
 compromise I-Attacker 
@@ -521,7 +521,7 @@ Extplorer B-App
 File I-App
 manager I-App
 eXtplorer I-App
-v.2.1.15 I-App
+v.2.1.15 I-AppVer
 allows O
 a O
 remote B-Attacker
