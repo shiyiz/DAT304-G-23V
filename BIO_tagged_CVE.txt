@@ -3865,118 +3865,117 @@ meeting I-Vector
 time I-Vector
 . O
 
----101---
----101---
-Adobe
-Reader
-and
-Acrobat
-7.0.8
-and
-earlier
-allows
-user-assisted
-remote
-attackers
-to
-execute
-code
-via
-a
-crafted
-PDF
-file
-that
-triggers
-memory
-corruption
-and
-overwrites
-a
-subroutine
-pointer
-during
-rendering.
+Adobe B-App
+Reader I-App
+and O
+Acrobat I-App
+7.0.8 B-AppVer
+and I-AppVer
+earlier I-AppVer
+allows O
+user-assisted B-Attacker
+remote I-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+code I-Impact
+via O
+a O
+crafted B-Vector
+PDF I-Vector
+file I-Vector 
+that I-Vector
+triggers I-Vector 
+memory I-Vector
+corruption I-Vector
+and I-Vector
+overwrites I-Vector
+a I-Vector
+subroutine I-Vector
+pointer I-Vector
+during I-Vector
+rendering I-Vector
+. O
 
----102---
-SQL
-injection
-vulnerability
-in
-MoreInfo.asp
-in
-The
-Net
-Guys
-ASPired2Poll
-1.0
-and
-earlier
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-id
-parameter.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+MoreInfo.asp B-Component
+in O
+The O
+Net B-App
+Guys I-App
+ASPired2Poll I-App
+1.0 B-AppVer
+and I-AppVer
+earlier I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+id B-Vector
+parameter I-Vector
+. O
 
----103---
-VMWare
-VirtualCenter
-client
-2.x
-before
-2.0.1
-Patch
-1
-(Build
-33643)
-and
-1.4.x
-before
-1.4.1
-Patch
-1
-(Build
-33425),
-when
-server
-certificate
-verification
-is
-enabled,
-does
-not
-verify
-the
-server's
-X.509
-certificate
-when
-creating
-an
-SSL
-session,
-which
-allows
-remote
-malicious
-servers
-to
-spoof
-valid
-servers
-via
-a
-man-in-the-middle
-attack.
+VMWare B-App
+VirtualCenter I-App
+client I-App
+2.x B-AppVer
+before I-AppVer
+2.0.1 I-AppVer
+Patch I-AppVer
+1 I-AppVer
+(Build 33643) I-AppVer
+and O
+1.4.x B-AppVer
+before I-AppVer
+1.4.1 I-AppVer
+Patch I-AppVer
+1 I-AppVer
+(Build 33425) I-AppVer
+, O
+when B-Setting
+server I-Setting
+certificate I-Setting
+verification I-Setting
+is I-Setting 
+enabled I-Setting
+, O 
+does B-Vul
+not I-Vul
+verify I-Vul
+the I-Vul
+server's I-Vul
+X.509 I-Vul
+certificate I-Vul
+when I-Vul
+creating I-Vul
+an I-Vul
+SSL I-Vul
+session I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+malicious I-Attacker
+servers I-Attacker
+to O
+spoof B-Impact
+valid I-Impact
+servers I-Impact
+via O
+a O
+man-in-the-middle B-Vector
+attack I-Vector
+. O
 
----104---
 PHP
 remote
 file
