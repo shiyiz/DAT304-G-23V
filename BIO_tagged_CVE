@@ -504,6 +504,3284 @@ non-existent I-Vector
 URLs I-Vector
 . O
 
+Microsoft B-App
+Index I-App
+Server I-App
+2.0 B-AppVer
+in O
+Windows B-Platform
+NT I-Platform
+4.0 B-PlatformVer
+, O
+and O
+Indexing B-App
+Service I-App
+in O
+Windows B-Platform
+2000 B-PlatformVer
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+read B-Impact
+server-side I-Impact
+include I-Impact
+files I-Impact
+via O
+a O
+malformed B-Vector
+search I-Vector
+request I-Vector
+, O
+aka O
+a O
+new O
+variant O
+of O
+the O
+" B-VulType
+Malformed I-VulType
+Hit-Highlighting I-VulType
+" I-VulType
+vulnerability I-VulType
+. O
+
+A O
+cross-site B-VulType
+scripting I-VulType
+vulnerability I-VulType
+in O
+Apache B-App
+Tomcat I-App
+3.2.1 B-AppVer
+allows O
+a O
+malicious B-Attacker
+webmaster I-Attacker
+to O
+embed B-Vector
+Javascript I-Vector
+in I-Vector
+a I-Vector
+request I-Vector
+for I-Vector
+a I-Vector
+.JSP I-Vector
+file I-Vector
+, O
+which O
+causes B-Impact
+the I-Impact
+Javascript I-Impact
+to I-Impact
+be I-Impact
+inserted I-Impact
+into I-Impact
+an I-Impact
+error I-Impact
+message I-Impact
+. O
+
+Certain B-Component
+backend I-Component
+drivers I-Component
+in O
+the O
+SANE B-App
+library I-App
+1.0.3 B-AppVer
+and I-AppVer
+earlier I-AppVer
+, O
+as O
+used O
+in O
+frontend B-Platform
+software I-Platform
+such O
+as O
+XSane B-Platform
+, O
+allows O
+local B-Attacker
+users I-Attacker
+to O
+modify B-Impact
+files I-Impact
+via O
+a O
+symlink B-Vector
+attack I-Vector
+on I-Vector
+temporary I-Vector
+files I-Vector
+. O
+
+Inetd B-Component
+in O
+OpenServer B-App
+5.0.5 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(crash) B-VulType
+via O
+a O
+port B-Vector
+scan I-Vector
+, O
+e.g. O
+with I-Vector
+nmap I-Vector
+-PO I-Vector
+. O
+
+Cooolsoft B-App
+PowerFTP I-App
+Server I-App
+2.03 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+list B-Impact
+the I-Impact
+contents I-Impact
+of I-Impact
+arbitrary I-Impact
+drives I-Impact
+via O
+a O
+ls B-Vector
+(LIST) I-Vector
+command I-Vector
+that I-Vector
+includes I-Vector
+the I-Vector
+drive I-Vector
+letter I-Vector
+as I-Vector
+an I-Vector
+argument I-Vector
+, O
+e.g. I-Vector
+"ls I-VectorC:" I-Vector
+. O
+
+FreeBSD B-App
+4.3 B-AppVer
+does B-Vul
+not I-Vul
+properly I-Vul
+clear I-Vul
+shared I-Vul
+signal I-Vul
+handlers I-Vul
+when I-Vul
+executing I-Vul
+a I-Vul
+process I-Vul
+, O
+which O
+allows O
+local B-Attacker
+users I-Attacker
+to O
+gain B-Impact
+privileges I-Impact
+by O
+calling B-Vector
+rfork I-Vector
+with I-Vector
+a I-Vector
+shared I-Vector
+signal I-Vector
+handler I-Vector
+, I-Vector
+having I-Vector
+the I-Vector
+child I-Vector
+process I-Vector
+execute I-Vector
+a I-Vector
+setuid I-Vector
+program I-Vector
+, I-Vector
+and I-Vector 
+sending I-Vector
+a I-Vector
+signal I-Vector
+to I-Vector
+the I-Vector
+child I-Vector
+. O
+
+The O
+SSH-1 B-Component 
+protocol I-Component
+allows O 
+remote B-Attacker
+servers I-Attacker
+to O
+conduct O
+man-in-the-middle B-VulType
+attacks I-VulType
+and O
+replay B-Impact
+a I-Impact
+client I-Impact
+challenge I-Impact
+response I-Impact
+to I-Impact
+a I-Impact
+target I-Impact
+server I-Impact
+by O
+creating B-Vector
+a I-Vector
+Session I-Vector
+ID I-Vector
+that I-Vector
+matches I-Vector
+the I-Vector
+Session I-Vector 
+ID I-Vector
+of I-Vector
+the I-Vector
+target I-Vector
+, I-Vector
+but I-Vector  
+which I-Vector
+uses I-Vector
+a I-Vector
+public I-Vector
+key I-Vector
+pair I-Vector
+that I-Vector
+is I-Vector
+weaker I-Vector
+than I-Vector
+the I-Vector
+target's I-Vector
+public I-Vector
+key I-Vector
+, I-Vector
+which I-Vector
+allows I-Vector
+the I-Vector
+attacker I-Vector
+to I-Vector
+compute I-Vector
+the I-Vector
+corresponding I-Vector
+private I-Vector
+key I-Vector
+and I-Vector
+use I-Vector
+the I-Vector
+target's I-Vector
+Session I-Vector
+ID I-Vector
+with I-Vector
+the I-Vector
+compromised I-Vector
+key I-Vector
+pair I-Vector
+to I-Vector
+masquerade I-Vector
+as I-Vector
+the I-Vector
+target I-Vector
+. O
+
+lpd B-Component
+daemon I-Component
+(in.lpd) B-Component
+in O
+Solaris B-App
+8 B-AppVer
+and I-AppVer
+earlier I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+commands I-Impact
+via O
+a O
+job B-Vector
+request I-Vector
+with I-Vector
+a I-Vector
+crafted I-Vector
+control I-Vector
+file I-Vector
+that I-Vector
+is I-Vector
+not I-Vector
+properly I-Vector
+handled I-Vector
+when I-Vector
+lpd I-Vector
+invokes I-Vector
+a I-Vector
+mail I-Vector
+program I-Vector
+. O
+NOTE: O
+this O
+might O
+be O
+the O
+same O
+vulnerability O
+as O
+CVE-2000-1220 O
+. O
+
+In O
+Microsoft B-Platform
+Windows I-Platform
+NT I-Platform
+and O
+Windows B-Platform
+2000 I-Platform 
+, O
+a B-Vul
+trusting I-Vul
+domain I-Vul 
+that I-Vul
+receives I-Vul
+authorization I-Vul
+information I-Vul
+from I-Vul
+a I-Vul
+trusted I-Vul
+domain I-Vul
+does I-Vul
+not I-Vul
+verify I-Vul
+that I-Vul
+the I-Vul
+trusted I-Vul
+domain I-Vul
+is I-Vul
+authoritative I-Vul
+for I-Vul
+all I-Vul
+listed I-Vul
+SIDs I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+gain B-Impact
+Domain I-Impact
+Administrator I-Impact
+privileges I-Impact
+on I-Impact
+the I-Impact
+trusting I-Impact
+domain I-Impact
+by O
+injecting B-Vector
+SIDs I-Vector
+from I-Vector
+untrusted I-Vector
+domains I-Vector
+into I-Vector
+the I-Vector
+authorization I-Vector
+data I-Vector
+that I-Vector
+comes I-Vector
+from I-Vector
+the I-Vector
+trusted I-Vector 
+domain I-Vector 
+. O
+
+Directory B-VulType
+traversal I-VulType
+vulnerability I-VulType
+in O
+filemanager.asp B-Component
+for O
+Hosting B-App
+Controller I-App
+1.4.1 B-AppVer
+and I-AppVer
+earlier I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+read B-Impact 
+and I-Impact
+modify I-Impact
+arbitrary I-Impact
+files I-Impact
+, I-Impact
+and I-Impact
+execute I-Impact
+commands I-Impact
+, O
+via O
+a O
+.. B-Vector
+(dot dot) I-Vector
+in I-Vector
+the I-Vector
+OpenPath I-Vector
+parameter I-Vector
+. O
+
+CGIscript.net B-Component
+csMailto.cgi I-Component
+program I-Component
+exports I-Component
+feedback I-Component
+to O
+a O
+file B-App
+that I-App
+is I-App
+accessible I-App
+from I-App
+the I-App
+web I-App
+document I-App
+root I-App
+, O
+which O
+could O
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+obtain B-Impact
+sensitive I-Impact
+information I-Impact
+by O
+directly B-Vector
+accessing I-Vector 
+the I-Vector
+file I-Vector
+. O
+
+SQL*NET B-App
+listener I-App
+for O
+Oracle B-Platform
+Net I-Platform
+Oracle9i I-Platform
+9.0.x B-PlatformVer
+and O
+9.2 B-PlatformVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(crash) B-VulType
+via O
+certain B-Vector
+debug I-Vector
+requests I-Vector
+that I-Vector
+are I-Vector
+not I-Vector
+properly I-Vector
+handled I-Vector
+by I-Vector
+the I-Vector
+debugging I-Vector
+feature I-Vector
+. O
+
+---25---
+The
+Host()
+function
+in
+the
+Microsoft
+spreadsheet
+component
+on
+Microsoft
+Office
+XP
+allows
+remote
+attackers
+to
+create
+arbitrary
+files
+using
+the
+SaveAs
+capability.
+
+Unknown B-Vul 
+vulnerability I-Vul
+in O
+Apache B-App
+1.3.19 I-App
+running O
+on O
+HP B-Platform
+Secure I-Platform 
+OS I-Platform
+for I-Platform
+Linux I-Platform
+1.0 I-Platform 
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+"unexpected results" B-Impact
+via O
+an O
+HTTP B-Vector
+request I-Vector
+. O
+
+The O
+file B-Component
+preview I-Component
+functionality I-Component
+in O
+Sketch B-App
+0.6.12 B-AppVer
+and I-AppVer
+earlier I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+commands I-Impact
+via O
+shell B-Vector
+metacharacters I-Vector
+in I-Vector
+the I-Vector
+filename I-Vector
+of I-Vector
+an I-Vector
+encapsulated I-Vector
+Postscript I-Vector
+(EPS) I-Vector
+file I-Vector
+. O
+
+Konqueror
+Embedded
+and
+KDE
+2.2.2
+and
+earlier
+does
+not
+validate
+the
+Common
+Name
+(CN)
+field
+for
+X.509
+Certificates,
+which
+could
+allow
+remote
+attackers
+to
+spoof
+certificates
+via
+a
+man-in-the-middle
+attack.
+
+---29---
+The
+default
+CredentialMapper
+for
+BEA
+WebLogic
+Server
+and
+Express
+7.0
+and
+7.0.0.1
+stores
+passwords
+in
+cleartext
+on
+disk,
+which
+allows
+local
+users
+to
+extract
+passwords.
+
+---30---
+PHPGEDVIEW
+2.61
+allows
+remote
+attackers
+to
+reinstall
+the
+software
+and
+change
+the
+administrator
+password
+via
+a
+direct
+HTTP
+request
+to
+editconfig.php.
+
+---31---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+phpGedView
+before
+2.65
+allow
+remote
+attackers
+to
+inject
+arbitrary
+HTML
+or
+web
+script
+via
+(1)
+descendancy.php,
+(2)
+index.php,
+(3)
+individual.php,
+(4)
+login.php,
+(5)
+relationship.php,
+(6)
+source.php,
+(7)
+imageview.php,
+(8)
+calendar.php,
+(9)
+gedrecord.php,
+(10)
+login.php,
+and
+(11)
+gdbi_interface.php.
+
+NOTE:
+some
+aspects
+of
+vector
+10
+were
+later
+reported
+to
+affect
+4.1.
+
+---32---
+TCP,
+when
+using
+a
+large
+Window
+Size,
+makes
+it
+easier
+for
+remote
+attackers
+to
+guess
+sequence
+numbers
+and
+cause
+a
+denial
+of
+service
+(connection
+loss)
+to
+persistent
+TCP
+connections
+by
+repeatedly
+injecting
+a
+TCP
+RST
+packet,
+especially
+in
+protocols
+that
+use
+long-lived
+connections,
+such
+as
+BGP.
+
+---33---
+Cisco
+Internetwork
+Operating
+System
+(IOS)
+12.0S
+through
+12.3T
+attempts
+to
+process
+SNMP
+solicited
+operations
+on
+improper
+ports
+(UDP
+162
+and
+a
+randomly
+chosen
+UDP
+port),
+which
+allows
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(device
+reload
+and
+memory
+corruption).
+
+---34---
+Buffer
+overflow
+in
+Info-Zip
+2.3
+and
+possibly
+earlier
+versions,
+when
+using
+recursive
+folder
+compression,
+allows
+remote
+attackers
+to
+execute
+arbitrary
+code
+via
+a
+ZIP
+file
+containing
+a
+long
+pathname.
+
+---35---
+MailPost
+5.1.1sv,
+and
+possibly
+earlier
+versions,
+when
+debug
+mode
+is
+enabled,
+allows
+remote
+attackers
+to
+gain
+sensitive
+information
+via
+the
+debug
+parameter,
+which
+reveals
+information
+such
+as
+the
+path
+to
+the
+web
+root
+and
+the
+web
+server
+version.
+
+---36---
+AppServ
+2.5.x
+and
+earlier
+installs
+a
+default
+username
+and
+password,
+which
+allows
+remote
+attackers
+to
+gain
+access.
+
+---37---
+Buffer
+overflow
+in
+Soldier
+of
+Fortune
+II
+1.03
+Gold
+and
+earlier
+allows
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(server
+or
+client
+crash)
+via
+a
+long
+(1)
+query
+or
+(2)
+reply.
+
+---38---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+the
+login
+form
+in
+Open
+WorkFlow
+Engine
+(OpenWFE)
+1.4.x
+allows
+remote
+attackers
+to
+execute
+arbitrary
+web
+script
+or
+HTML
+via
+the
+url
+parameter.
+
+---39---
+Directory
+traversal
+vulnerability
+in
+MyDMS
+1.4.2
+and
+other
+versions
+allows
+remote
+registered
+users
+to
+read
+arbitrary
+files
+via
+..
+(dot
+dot)
+sequences
+in
+the
+URL.
+
+---40---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+WebCT
+Campus
+Edition
+4.1.1.5
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+@import
+URL
+function
+in
+a
+CSS
+style
+tag.
+
+---41---
+The
+administration
+interface
+in
+Monit
+1.4
+through
+4.2
+allows
+remote
+attackers
+to
+cause
+an
+off-by-one
+overflow
+via
+a
+POST
+that
+contains
+1024
+bytes.
+
+---42---
+Opera
+before
+7.54
+allows
+remote
+attackers
+to
+modify
+properties
+and
+methods
+of
+the
+location
+object
+and
+execute
+Javascript
+to
+read
+arbitrary
+files
+from
+the
+client's
+local
+filesystem
+or
+display
+a
+false
+URL
+to
+the
+user.
+
+---43---
+Absolute
+path
+traversal
+vulnerability
+in
+Quake
+II
+server
+before
+R1Q2
+on
+Windows,
+as
+used
+in
+multiple
+products,
+allows
+remote
+attackers
+to
+read
+arbitrary
+files
+via
+a
+"\/"
+in
+a
+pathname
+argument,
+as
+demonstrated
+by
+"download
+\/server.cfg".
+
+---44---
+KMail
+1.7.1
+in
+KDE
+3.3.2
+allows
+remote
+attackers
+to
+spoof
+email
+information,
+such
+as
+whether
+the
+email
+has
+been
+digitally
+signed
+or
+encrypted,
+via
+HTML
+formatted
+email.
+
+---45---
+Signedness
+error
+in
+the
+copy_from_read_buf
+function
+in
+n_tty.c
+for
+Linux
+kernel
+2.6.10
+and
+2.6.11rc1
+allows
+local
+users
+to
+read
+kernel
+memory
+via
+a
+negative
+argument.
+
+---46---
+PHP
+remote
+file
+inclusion
+vulnerability
+in
+auth.php
+in
+PHPNews
+1.2.4
+and
+possibly
+1.2.3,
+allows
+remote
+attackers
+to
+execute
+arbitrary
+PHP
+code
+via
+the
+path
+parameter.
+
+---47---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+Invision
+Power
+Board
+2.0.2
+and
+earlier
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+an
+HTTP
+POST
+request.
+
+---48---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+IlohaMail
+0.8.14
+and
+earlier
+allow
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+e-mail
+(1)
+body,
+(2)
+filename,
+or
+(3)
+MIME
+type.
+
+---49---
+Directory
+traversal
+vulnerability
+in
+Golden
+FTP
+server
+pro
+2.52
+allows
+remote
+attackers
+to
+read
+arbitrary
+files
+via
+a
+"\.."
+(backward
+slash
+dot
+dot)
+with
+a
+leading
+'"'
+(double
+quote)
+in
+the
+GET
+command.
+
+---50---
+Multiple
+SQL
+injection
+vulnerabilities
+in
+DUware
+DUportal
+PRO
+3.4.3
+allow
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+(1)
+iChannel
+parameter
+to
+default.asp,
+(2)
+iData
+parameter
+to
+detail.asp,
+(3)
+iMem
+parameter
+to
+members.asp,
+(4)
+iCat
+parameter
+to
+cat.asp,
+(5)
+offset
+parameter
+to
+members_listing_approval.asp,
+or
+(6)
+iChannel
+parameter
+to
+channels_edit.asp.
+
+---51---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+McAfee
+IntruShield
+Security
+Management
+System
+allow
+remote
+authenticated
+users
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(1)
+thirdMenuName
+or
+(2)
+resourceName
+parameter
+to
+SystemEvent.jsp.
+
+---52---
+Check
+Point
+SecuRemote
+NG
+with
+Application
+Intelligence
+R54
+allows
+attackers
+to
+obtain
+credentials
+and
+gain
+privileges
+via
+unknown
+attack
+vectors.
+
+---53---
+Eval
+injection
+vulnerability
+in
+Karrigell
+before
+2.1.8
+allows
+remote
+attackers
+to
+execute
+arbitrary
+Python
+code
+via
+modified
+arguments
+to
+a
+Karrigell
+services
+(.ks)
+script,
+which
+can
+reference
+functions
+from
+libraries
+that
+are
+used
+by
+that
+script.
+
+---54---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+index.php
+in
+VegaDNS
+0.8.1,
+0.9.8,
+and
+possibly
+other
+versions,
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+message
+parameter.
+
+---55---
+passwd
+in
+Directory
+Services
+in
+Mac
+OS
+X
+10.3.x
+before
+10.3.9
+and
+10.4.x
+before
+10.4.5
+allows
+local
+users
+to
+overwrite
+arbitrary
+files
+via
+a
+symlink
+attack
+on
+the
+.pwtmp.[PID]
+temporary
+file.
+
+---56---
+The
+password
+reset
+feature
+in
+Movable
+Type
+before
+3.2
+generates
+different
+error
+messages
+depending
+on
+whether
+a
+user
+exists
+or
+not,
+which
+allows
+remote
+attackers
+to
+determine
+valid
+usernames.
+
+---57---
+Microsoft
+Windows
+2000
+before
+Update
+Rollup
+1
+for
+SP4
+does
+not
+apply
+group
+policies
+if
+the
+user
+logs
+on
+using
+UPN
+credentials
+with
+a
+trailing
+dot,
+which
+prevents
+Windows
+2000
+from
+finding
+the
+correct
+domain
+controller
+and
+could
+allow
+the
+user
+to
+bypass
+intended
+restrictions.
+
+---58---
+Frisk
+F-Prot
+Antivirus
+allows
+remote
+attackers
+to
+bypass
+protection
+via
+a
+ZIP
+file
+with
+a
+version
+header
+greater
+than
+15,
+which
+prevents
+F-Prot
+from
+decompressing
+and
+analyzing
+the
+file.
+
+---59---
+frameset.htm
+in
+the
+BSP
+runtime
+in
+SAP
+Web
+Application
+Server
+(WAS)
+6.10
+through
+7.00
+allows
+remote
+attackers
+to
+log
+users
+out
+and
+redirect
+them
+to
+arbitrary
+web
+sites
+via
+a
+close
+command
+in
+the
+sap-sessioncmd
+parameter
+and
+a
+URL
+in
+the
+sap-exiturl
+parameter.
+
+---60---
+Multiple
+SQL
+injection
+vulnerabilities
+in
+Ugroup
+2.6.2
+and
+earlier
+allow
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+(1)
+FORUM_ID
+parameter
+in
+forum.php,
+and
+the
+(2)
+TOPIC_ID,
+(3)
+FORUM_ID,
+and
+(4)
+CAT_ID
+parameters
+in
+topic.php.
+
+---61---
+SQL
+injection
+vulnerability
+in
+topic.php
+in
+ShockBoard
+3.0
+and
+4.0
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+offset
+parameter.
+
+---62---
+CRLF
+injection
+vulnerability
+in
+the
+mb_send_mail
+function
+in
+PHP
+before
+5.1.0
+might
+allow
+remote
+attackers
+to
+inject
+arbitrary
+e-mail
+headers
+via
+line
+feeds
+(LF)
+in
+the
+"To"
+address
+argument.
+
+---63---
+SQL
+injection
+vulnerability
+in
+index.php
+in
+AlmondSoft
+Almond
+Classifieds
+5.02
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+id
+parameter.
+
+---64---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+Sitekit
+CMS
+6.6
+and
+earlier
+allow
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(1)
+query
+string,
+(2)
+textonly,
+(3)
+locID,
+and
+(4)
+lang
+parameters
+to
+(a)
+Default.aspx,
+and
+the
+(6)
+ClickFrom
+parameter
+to
+(b)
+Request-call-back.html
+and
+(c)
+registration-form.html.
+
+NOTE:
+the
+vendor
+states
+"This
+issue
+was
+resolved
+by
+a
+minor
+update
+to
+Sitekit
+CMS
+v6.6,
+sanitising
+the
+html
+code
+and
+eradicating
+related
+security
+issues."
+
+---65---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+search
+in
+SyntaxCMS
+1.2.1
+and
+earlier
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+search_query
+parameter.
+
+---66---
+SQL
+injection
+vulnerability
+in
+the
+"user
+area"
+in
+RWS
+Statistics
+Counter
+before
+2.4.1
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+unknown
+vectors.
+
+---67---
+Multiple
+SQL
+injection
+vulnerabilities
+in
+OcoMon
+1.20,
+and
+possibly
+earlier
+versions,
+allow
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+unknown
+attack
+vectors
+in
+an
+unspecified
+input
+form,
+a
+different
+vulnerability
+than
+CVE-2005-4664.
+
+---68---
+IBM
+DB2
+Universal
+Database
+(UDB)
+810
+before
+8.1
+FP10
+allows
+remote
+authenticated
+users
+to
+cause
+a
+denial
+of
+service
+(application
+crash)
+via
+(1)
+certain
+equality
+predicates
+that
+trigger
+self-removal,
+aka
+IY70808;
+and
+(2)
+a
+query
+with
+more
+than
+32000
+elements
+in
+the
+IN-list,
+aka
+LI70817.
+
+---69---
+IBM
+WebSphere
+Application
+Server
+(WAS)
+5.0.2.5
+through
+5.1.1.3
+allows
+remote
+attackers
+to
+obtain
+JSP
+source
+code
+and
+other
+sensitive
+information,
+related
+to
+incorrect
+request
+processing
+by
+the
+web
+container.
+
+---70---
+Stack-based
+buffer
+overflow
+in
+Microsoft
+Excel
+2000,
+2002,
+and
+2003,
+in
+Microsoft
+Office
+2000
+SP3
+and
+other
+packages,
+allows
+user-assisted
+attackers
+to
+execute
+arbitrary
+code
+via
+an
+Excel
+file
+with
+a
+malformed
+record
+with
+a
+modified
+length
+value,
+which
+leads
+to
+memory
+corruption.
+
+---71---
+427BB
+2.2
+and
+2.2.1
+verifies
+authentication
+credentials
+based
+on
+the
+username,
+authenticated,
+and
+usertype
+cookies,
+which
+allows
+remote
+attackers
+to
+bypass
+authentication
+by
+using
+a
+valid
+username
+and
+usertype
+and
+setting
+the
+authenticated
+cookie.
+
+---72---
+Selective
+Acknowledgement
+(SACK)
+in
+FreeBSD
+5.3
+and
+5.4
+does
+not
+properly
+handle
+an
+incoming
+selective
+acknowledgement
+when
+there
+is
+insufficient
+memory,
+which
+might
+allow
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(infinite
+loop).
+
+---73---
+The
+Linux
+Kernel
+before
+2.6.15.5
+allows
+local
+users
+to
+cause
+a
+denial
+of
+service
+(NFS
+client
+panic)
+via
+unknown
+attack
+vectors
+related
+to
+the
+use
+of
+O_DIRECT
+(direct
+I/O).
+
+---74---
+PHP
+remote
+file
+include
+vulnerability
+in
+index.php
+in
+Tasarim
+Rehberi
+allows
+remote
+attackers
+to
+execute
+arbitrary
+PHP
+code
+via
+a
+URL
+in
+the
+(1)
+sayfaadi
+or
+(2)
+sayfa
+parameter.
+
+NOTE:
+this
+might
+be
+a
+site-specific
+issue.
+
+If
+so,
+it
+should
+not
+be
+included
+in
+CVE.
+
+---75---
+Oi!
+Email
+Marketing
+System
+3.0
+(aka
+Oi!
+3)
+stores
+the
+server's
+FTP
+password
+in
+cleartext
+on
+a
+Configuration
+web
+page,
+which
+allows
+local
+users
+with
+superadministrator
+privileges,
+or
+attackers
+who
+have
+obtained
+access
+to
+the
+web
+page,
+to
+view
+the
+password.
+
+---76---
+The
+ncprwsnt
+service
+in
+NCP
+Network
+Communication
+Secure
+Client
+8.11
+Build
+146,
+and
+possibly
+other
+versions,
+allows
+local
+users
+to
+execute
+arbitrary
+code
+by
+modifying
+the
+connect.bat
+script,
+which
+is
+automatically
+executed
+by
+the
+service
+after
+a
+connection
+is
+established.
+
+---77---
+SQL
+injection
+vulnerability
+in
+functions/final_functions.php
+in
+VSNS
+Lemon
+3.2.0,
+with
+magic_quotes_gpc
+disabled,
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+id
+parameter.
+
+---78---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+index.php
+in
+Musicbox
+2.3.3
+and
+earlier
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+term
+parameter
+in
+a
+search
+action.
+
+---79---
+**
+DISPUTED
+**
+
+Multiple
+SQL
+injection
+vulnerabilities
+in
+userscript.php
+in
+Green
+Minute
+1.0
+and
+earlier
+allow
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+(1)
+huserid,
+(2)
+pituus,
+or
+(3)
+date
+parameters.
+NOTE:
+this
+issue
+has
+been
+disputed
+by
+the
+vendor,
+saying
+"those
+parameters
+mentioned
+ARE
+checked
+(preg_match)
+before
+they
+are
+used
+in
+SQL-query...
+
+If
+someone
+decided
+to
+add
+SQL-injection
+stuff
+to
+certain
+parameter,
+they
+would
+see
+an
+error
+text,
+but
+only
+because
+_nothing_
+was
+passed
+inside
+that
+parameter
+(to
+MySQL-database)."
+
+As
+allowed
+by
+the
+vendor,
+CVE
+investigated
+this
+report
+on
+20060525
+and
+found
+that
+the
+demo
+site
+demonstrated
+a
+non-sensitive
+SQL
+error
+when
+given
+standard
+SQL
+injection
+manipulations.
+
+---80---
+Unspecified
+vulnerability
+in
+the
+_cg_TIFFSetField
+function
+in
+Mac
+OS
+X
+10.4.6
+and
+earlier,
+as
+used
+in
+applications
+that
+use
+ImageIO
+or
+AppKit,
+allows
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(application
+crash)
+via
+a
+crafted
+TIFF
+image
+that
+triggers
+a
+null
+dereference.
+
+---81---
+SQL
+injection
+vulnerability
+in
+function/showprofile.php
+in
+FlexBB
+0.5.5
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands,
+and
+view
+all
+usernames
+and
+passwords,
+via
+the
+id
+parameter
+to
+the
+showprofile
+page
+in
+index.php.
+
+---82---
+A
+component
+in
+Microsoft
+Outlook
+Express
+6
+allows
+remote
+attackers
+to
+bypass
+domain
+restrictions
+and
+obtain
+sensitive
+information
+via
+redirections
+with
+the
+mhtml:
+URI
+handler,
+as
+originally
+reported
+for
+Internet
+Explorer
+6
+and
+7,
+aka
+"URL
+Redirect
+Cross
+Domain
+Information
+Disclosure
+Vulnerability."
+
+---83---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+superalbum/index.php
+in
+Photoalbum
+B&W
+1.3
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+pic
+parameter.
+
+---84---
+Multiple
+SQL
+injection
+vulnerabilities
+in
+phpCommunityCalendar
+4.0.3
+allow
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+(1)
+CalendarDetailsID
+parameter
+in
+(a)
+month.php,
+(b)
+day.php,
+and
+(c)
+delCalendar.php;
+(2)
+ID
+parameter
+in
+(d)
+event.php;
+(3)
+AdminUserID
+parameter
+in
+(e)
+delAdmin.php;
+(4)
+EventLocationID
+parameter
+in
+(f)
+delAddress.php;
+and
+(5)
+LocationID
+parameter
+in
+(g)
+delCategory.php.
+
+---85---
+SQL
+injection
+vulnerability
+in
+inc_header.asp
+in
+Snitz
+Forum
+3.4.05
+and
+earlier
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+%strCookieURL%.GROUP
+parameter
+in
+a
+cookie.
+
+---86---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+ClickGallery
+5.0
+and
+earlier
+allow
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(1)
+gallery_id
+parameter
+in
+gallery.asp
+and
+(2)
+parentcurrentpage
+parameter
+in
+view_gallery.asp.
+
+---87---
+SQL
+injection
+vulnerability
+in
+tree.php
+in
+MyNewsGroups
+0.6
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+grp_id
+parameter.
+
+---88---
+Microsoft
+Internet
+Explorer
+6
+allows
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(crash)
+by
+declaring
+the
+sourceURL
+attribute
+on
+an
+uninitialized
+DirectAnimation.StructuredGraphicsControl
+ActiveX
+Object,
+which
+triggers
+a
+null
+dereference.
+
+---89---
+The
+Javascript
+engine
+in
+Mozilla
+Firefox
+before
+1.5.0.5,
+Thunderbird
+before
+1.5.0.5,
+and
+SeaMonkey
+before
+1.0.3
+might
+allow
+remote
+attackers
+to
+execute
+arbitrary
+code
+via
+vectors
+involving
+garbage
+collection
+that
+causes
+deletion
+of
+a
+temporary
+object
+that
+is
+still
+being
+used.
+
+---90---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+Kailash
+Nadh
+boastMachine
+(formerly
+bMachine)
+3.1
+and
+earlier
+allow
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(1)
+user_login,
+(2)
+full_name,
+and
+(3)
+URL
+parameters
+in
+register.php;
+and
+allow
+remote
+authenticated
+administrators
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(4)
+cat_list
+and
+(5)
+key
+parameters
+in
+a
+certain
+portion
+of
+the
+admin
+interface.
+
+---91---
+PHP
+remote
+file
+inclusion
+vulnerability
+in
+administrator/components/com_colophon/admin.colophon.php
+in
+Colophon
+1.2
+and
+earlier
+for
+Joomla!
+allows
+remote
+attackers
+to
+execute
+arbitrary
+PHP
+code
+via
+a
+URL
+in
+the
+mosConfig_absolute_path
+parameter.
+
+---92---
+Stack-based
+buffer
+overflow
+in
+Justsystem
+Ichitaro
+9.x
+through
+13.x,
+Ichitaro
+2004,
+2005,
+2006,
+and
+Government
+2006;
+Ichitaro
+for
+Linux;
+and
+FormLiner
+before
+20060818
+allows
+remote
+attackers
+to
+execute
+arbitrary
+code
+via
+long
+Unicode
+strings
+in
+a
+crafted
+document,
+as
+being
+actively
+exploited
+by
+malware
+such
+as
+Trojan.Tarodrop.
+
+NOTE:
+some
+details
+are
+obtained
+from
+third
+party
+information.
+
+---93---
+Multiple
+cross-site
+scripting
+(XSS)
+vulnerabilities
+in
+add_url.php
+in
+CloudNine
+Interactive
+Links
+Manager
+2006-06-12
+allow
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+(1)
+title,
+(2)
+description,
+or
+(3)
+keywords
+parameters.
+
+---94---
+The
+Security
+Framework
+in
+Apple
+Mac
+OS
+X
+10.3.9,
+and
+10.4.x
+before
+10.4.7,
+does
+not
+properly
+search
+certificate
+revocation
+lists
+(CRL),
+which
+allows
+remote
+attackers
+to
+access
+systems
+by
+using
+revoked
+certificates.
+
+---95---
+Microsoft
+Internet
+Explorer
+allows
+remote
+attackers
+to
+cause
+a
+denial
+of
+service
+(memory
+corruption)
+and
+possibly
+execute
+arbitrary
+code
+by
+instantiating
+certain
+Windows
+2000
+ActiveX
+COM
+Objects
+including
+(1)
+ciodm.dll,
+(2)
+myinfo.dll,
+(3)
+msdxm.ocx,
+and
+(4)
+creator.dll.
+
+---96---
+SQL
+injection
+vulnerability
+in
+aut_verifica.inc.php
+in
+Autentificator
+2.01
+allows
+remote
+attackers
+to
+execute
+arbitrary
+SQL
+commands
+via
+the
+user
+parameter.
+
+---97---
+Dynamic
+variable
+evaluation
+vulnerability
+in
+cmpi.php
+in
+Qualiteam
+X-Cart
+4.1.3
+and
+earlier
+allows
+remote
+attackers
+to
+overwrite
+arbitrary
+program
+variables
+and
+execute
+arbitrary
+PHP
+code,
+as
+demonstrated
+by
+PHP
+remote
+file
+inclusion
+via
+the
+xcart_dir
+parameter.
+
+---98---
+Cross-site
+scripting
+(XSS)
+vulnerability
+in
+search.php
+in
+eSyndiCat
+Portal
+System
+allows
+remote
+attackers
+to
+inject
+arbitrary
+web
+script
+or
+HTML
+via
+the
+what
+parameter.
+
+---99---
+Heap-based
+buffer
+overflow
+in
+an
+unspecified
+procedure
+in
+Trend
+Micro
+ServerProtect
+5.7
+and
+5.58
+allows
+remote
+attackers
+to
+execute
+arbitrary
+code
+via
+unknown
+vectors,
+probably
+related
+to
+an
+RPC
+interface.
+
+---100---
+Research
+in
+Motion
+(RIM)
+BlackBerry
+Enterprise
+Server
+4.1
+SP2
+before
+Hotfix
+1
+for
+IBM
+Lotus
+Domino
+might
+allow
+attackers
+with
+meeting
+organizer
+privileges
+to
+cause
+a
+denial
+of
+service
+(application
+hang)
+via
+a
+deleted
+recurrent
+meeting
+instance
+when
+changing
+the
+attendee's
+calendar
+meeting
+time.
+
+---101---
 
 ---
 SpectroSERVER 
