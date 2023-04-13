@@ -3976,473 +3976,503 @@ man-in-the-middle B-Vector
 attack I-Vector
 . O
 
-PHP
-remote
-file
-inclusion
-vulnerability
-in
-shambo2.php
-in
-the
-Shambo2
-(com_shambo2)
-component
-for
-Mambo
-4.5
-allows
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-the
-mosConfig_absolute_path
-parameter.
+PHP B-VulType
+remote I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerability I-VulType
+in O
+shambo2.php B-Component
+in O
+the O
+Shambo2 B-Component
+(com_shambo2) I-Component
+component I-Component
+for O
+Mambo B-App
+4.5 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact
+code I-Impact
+via O
+a O
+URL B-Vector
+in I-Vector
+the I-Vector
+mosConfig_absolute_path I-Vector
+parameter I-Vector
+. O
 
----105---
-PHP
-remote
-file
-inclusion
-vulnerability
-in
-Smarty_Compiler.class.php
-in
-Telaen
-1.1.0
-and
-earlier
-allows
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-the
-plugin_file
-parameter.
+PHP B-VulType
+remote I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerability I-VulType
+in O
+Smarty_Compiler.class.php B-Component
+in O
+Telaen B-App
+1.1.0 B-AppVer
+and I-AppVer
+earlier I-AppVer 
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact 
+code I-Impact
+via O
+a O
+URL B-Vector
+in I-Vector
+the I-Vector
+plugin_file I-Vector
+parameter I-Vector
+. O
 
----106---
-Multiple
-cross-site
-scripting
-(XSS)
-vulnerabilities
-in
-submitlink.asp
-in
-JiRos
-Links
-Manager
-allow
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-the
-(1)
-lName,
-(2)
-lURL,
-(3)
-lImage,
-and
-(4)
-lDescription
-parameters.
+Multiple B-VulType
+cross-site I-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerabilities I-VulType
+in O
+submitlink.asp B-Component 
+in O
+JiRos B-App
+Links I-App
+Manager I-App
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or I-Impact
+HTML I-Impact
+via O
+the O
+(1) O 
+lName B-Vector
+, O
+(2) O
+lURL B-Vector
+, O
+(3) O
+lImage B-Vector
+, O
+and O
+(4) O
+lDescription B-Vector
+parameters I-Vector
+. O
+NOTE: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
 
-NOTE:
-some
-of
-these
-details
-are
-obtained
-from
-third
-party
-information.
+Multiple B-VulType
+SQL I-VulType
+injection I-VulType
+vulnerabilities I-VulType
+in O
+index.php B-Component
+in O
+dev4u B-App
+CMS I-App
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+(1) O
+seite_id B-Vector
+, O
+(2) O
+gruppe_id.php B-Vector
+, O
+and O
+(3) O
+go_target B-Vector
+parameters I-Vector
+. O
 
----107---
-Multiple
-SQL
-injection
-vulnerabilities
-in
-index.php
-in
-dev4u
-CMS
-allow
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-(1)
-seite_id,
-(2)
-gruppe_id.php,
-and
-(3)
-go_target
-parameters.
+Buffer B-VulType
+overflow I-VulType
+in O
+JustSystems B-Platform 
+Hanako B-App
+2004 B-AppVer
+through I-AppVer
+2006 I-AppVer
+, O
+Hanako B-App
+viewer I-App
+1.x B-AppVer
+, O
+Ichitaro B-App
+2004 B-AppVer
+, O
+Ichitaro B-App
+2005 B-AppVer
+, O
+Ichitaro B-App
+Lite2 B-App
+, O
+Ichitaro B-App
+viewer I-App
+4.x B-AppVer
+, O
+and O
+Sanshiro B-App
+2005 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+the O
+(1) O
+Keyword B-Vector
+and O
+(2) O
+Title B-Vector
+fields I-Vector
+, I-Vector
+related I-Vector 
+to I-Vector
+string I-Vector
+length I-Vector
+fields I-Vector
+. O
 
----108---
-Buffer
-overflow
-in
-JustSystems
-Hanako
-2004
-through
-2006,
-Hanako
-viewer
-1.x,
-Ichitaro
-2004,
-Ichitaro
-2005,
-Ichitaro
-Lite2,
-Ichitaro
-viewer
-4.x,
-and
-Sanshiro
-2005
-allows
-remote
-attackers
-to
-execute
-arbitrary
-code
-via
-the
-(1)
-Keyword
-and
-(2)
-Title
-fields,
-related
-to
-string
-length
-fields.
+HyperAccess B-App
+8.4 B-AppVer
+allows O
+user-assisted B-Attacker
+remote I-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+vbscript I-Impact
+and I-Impact
+commands I-Impact
+via O
+a O
+session B-Vector
+(HAW) I-Vector 
+file I-Vector
+, I-Vector
+which I-Vector
+can I-Vector 
+be I-Vector
+automatically I-Vector
+opened I-Vector
+using I-Vector
+Internet I-Vector
+Explorer I-Vector
+. O
 
----109---
-HyperAccess
-8.4
-allows
-user-assisted
-remote
-attackers
-to
-execute
-arbitrary
-vbscript
-and
-commands
-via
-a
-session
-(HAW)
-file,
-which
-can
-be
-automatically
-opened
-using
-Internet
-Explorer.
+Integer B-VulType
+overflow I-VulType
+in O
+the O
+(a) O
+OLE2 B-App
+and O
+(b) O
+CHM B-App
+parsers I-App
+for I-App
+ESET I-App
+NOD32 I-App
+Antivirus I-App
+before B-AppVer
+1.1743 I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+crafted B-Vector
+(1) O
+.DOC I-Vector
+or O
+(2) O
+.CAB I-Vector
+file I-Vector
+that I-Vector
+triggers I-Vector
+a I-Vector
+heap-based I-Vector
+buffer I-Vector
+overflow I-Vector
+. O
 
----110---
-Integer
-overflow
-in
-the
-(a)
-OLE2
-and
-(b)
-CHM
-parsers
-for
-ESET
-NOD32
-Antivirus
-before
-1.1743
-allows
-remote
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-crafted
-(1)
-.DOC
-or
-(2)
-.CAB
-file
-that
-triggers
-a
-heap-based
-buffer
-overflow.
+Voodoo B-App
+chat I-App
+1.0RC1b B-AppVer
+stores B-Vul
+sensitive I-Vul
+information I-Vul
+under I-Vul
+the I-Vul
+web I-Vul
+root I-Vul
+with I-Vul
+insufficient I-Vul
+access I-Vul
+control I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+download B-Impact 
+passwords I-Impact
+via O
+a O
+direct B-Vector
+request I-Vector
+for I-Vector
+data/users.dat I-Vector
+. O
 
----111---
-Voodoo
-chat
-1.0RC1b
-stores
-sensitive
-information
-under
-the
-web
-root
-with
-insufficient
-access
-control,
-which
-allows
-remote
-attackers
-to
-download
-passwords
-via
-a
-direct
-request
-for
-data/users.dat.
+Single B-Platform
+CPU I-Platform
+Sun I-Platform
+systems I-Platform
+running O
+Solaris B-App
+7 B-AppVer
+, O
+8 B-AppVer
+, O
+or O
+9 B-AppVer
+, O
+such O
+as O
+Netra B-Platform
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(console hang) I-VulType
+via O
+a O
+flood B-Vector
+of I-Vector
+small I-Vector
+TCP/IP I-Vector
+packets I-Vector
+. O
+NOTE: O
+this O
+issue O
+has O
+not O
+been O
+replicated O
+by O
+third O
+parties O
+. O
+In O
+addition O
+, O
+the O
+cause O
+is O
+unknown O
+, O
+although O
+it O
+might O
+be O
+related O
+to O
+"jabber" O
+and O
+generation O
+of O
+a O
+large O
+amount O
+of O
+interrupts O
+within O
+the O
+console O
+, O
+or O
+a O
+hardware O
+error O
+. O
 
----112---
-Single
-CPU
-Sun
-systems
-running
-Solaris
-7,
-8,
-or
-9,
-such
-as
-Netra,
-allows
-remote
-attackers
-to
-cause
-a
-denial
-of
-service
-(console
-hang)
-via
-a
-flood
-of
-small
-TCP/IP
-packets.
+Multiple B-VulType
+PHP I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerabilities I-VulType
+in O
+WGS-PPC B-App
+(aka PPC Search Engine) I-App
+, O
+as O
+distributed B-Setting
+with I-Setting
+other I-Setting
+aliases I-Setting
+, O
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact
+code I-Impact
+via O
+a O
+URL B-Vector
+in I-Vector
+the I-Vector
+INC I-Vector 
+parameter I-Vector
+in O
+(1) O
+config_admin.php B-Vector
+, O
+(2) O
+config_main.php B-Vector
+, O
+(3) O
+config_member.php B-Vector
+, O
+and O
+(4) O
+mysql_config.php B-Vector
+in I-Vector
+config/ I-Vector
+; O
+(5) O
+admin.php B-Vector
+and O
+(6) O
+index.php B-Vector
+in I-Vector
+admini/ I-Vector
+; O
+(7) O
+paypalipn/ipnprocess.php B-Vector
+; O
+(8) O
+index.php B-Vector
+and O
+(9) O
+registration.php B-Vector
+in I-Vector
+members/ I-Vector
+; O
+and O
+(10) O
+ppcbannerclick.php B-Vector
+and O
+(11) O
+ppcclick.php B-Vector
+in I-Vector
+main/ I-Vector
+. O
 
-NOTE:
-this
-issue
-has
-not
-been
-replicated
-by
-third
-parties.
-In
-addition,
-the
-cause
-is
-unknown,
-although
-it
-might
-be
-related
-to
-"jabber"
-and
-generation
-of
-a
-large
-amount
-of
-interrupts
-within
-the
-console,
-or
-a
-hardware
-error.
+The O
+extract_files B-Component
+function I-Component
+in I-Component
+installer.rb I-Component
+in O
+RubyGems B-App
+before I-App
+0.9.1 B-AppVer
+does B-Vul
+not I-Vul
+check I-Vul
+whether I-Vul
+files I-Vul
+exist I-Vul
+before I-Vul
+overwriting I-Vul
+them I-Vul
+, O
+which O
+allows O
+user-assisted B-Attacker
+remote I-Attacker
+attackers I-Attacker
+to O
+overwrite B-Impact
+arbitrary I-Impact
+files I-Impact
+, O  
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+, O
+or O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+crafted B-Vector
+GEM I-Vector
+packages I-Vector
+. O
 
----113---
-Multiple
-PHP
-file
-inclusion
-vulnerabilities
-in
-WGS-PPC
-(aka
-PPC
-Search
-Engine),
-as
-distributed
-with
-other
-aliases,
-allow
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-the
-INC
-parameter
-in
-(1)
-config_admin.php,
-(2)
-config_main.php,
-(3)
-config_member.php,
-and
-(4)
-mysql_config.php
-in
-config/;
-(5)
-admin.php
-and
-(6)
-index.php
-in
-admini/;
-(7)
-paypalipn/ipnprocess.php;
-(8)
-index.php
-and
-(9)
-registration.php
-in
-members/;
-and
-(10)
-ppcbannerclick.php
-and
-(11)
-ppcclick.php
-in
-main/.
-
----114---
-The
-extract_files
-function
-in
-installer.rb
-in
-RubyGems
-before
-0.9.1
-does
-not
-check
-whether
-files
-exist
-before
-overwriting
-them,
-which
-allows
-user-assisted
-remote
-attackers
-to
-overwrite
-arbitrary
-files,
-cause
-a
-denial
-of
-service,
-or
-execute
-arbitrary
-code
-via
-crafted
-GEM
-packages.
-
----115---
-Unspecified
-vulnerability
-in
-ImageIO
-in
-Apple
+Unspecified B-VulType
+vulnerability I-VulType
+in O
+ImageIO B-App
+in O
+Apple 
 Mac
 OS
 X
