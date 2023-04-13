@@ -8015,5 +8015,77 @@ the O
 index.php B-Component
 compenent I-Component
 
-
+GSS-NTLMSSP B-Component
+a O
+mechglue I-Component
+plugin I-Component
+for O 
+the O 
+GSSAPI B-Vector
+library I-Vector
+that O
+implements B-Component
+NTLM B-Impact
+authentication I-Impact
+has O
+an O 
+out-of-bounds O
+read O
+when O
+decoding 
+target 
+information 
+prior 
+to 
+version 
+1.2.0. 
+The 
+length 
+of 
+the 
+`av_pair` 
+is 
+not 
+checked 
+properly 
+for 
+two 
+of 
+the 
+elements 
+which O 
+can O
+trigger O 
+an O
+out-of-bound B-Vector
+read O 
+The O
+out-of-bounds B-Vector
+read O
+can O
+be O
+triggered 
+via O
+the 'o
+main O
+`gss_accept_sec_context` B-Vector
+entry B-VulType
+point I-Vultype
+and O
+could O
+cause O
+a O
+denial-of-service B-Vector
+if O
+the O
+memory B-Vector
+is O
+unmapped O
+The O
+issue o
+is o
+fixed o
+in O
+version B-AppVer
+1.2.0. I-AppVer
 
