@@ -8032,27 +8032,27 @@ an O
 out-of-bounds O
 read O
 when O
-decoding 
-target 
-information 
-prior 
-to 
-version 
-1.2.0. 
-The 
-length 
-of 
-the 
-`av_pair` 
-is 
-not 
-checked 
-properly 
-for 
-two 
-of 
-the 
-elements 
+decoding B-Vector
+target O
+information O
+prior O
+to O
+version B-AppVer
+1.2.0. I-AppVer
+The O
+length O
+of O
+the O
+`av_pair` B-Component
+is O
+not O
+checked O
+properly O
+for O
+two O
+of O
+the O
+elements O
 which O 
 can O
 trigger O 
@@ -8088,4 +8088,115 @@ fixed o
 in O
 version B-AppVer
 1.2.0. I-AppVer
+
+In O
+Splunk B-AppVer
+Enterprise I-AppVer
+versions I-AppVer
+below O
+8.1.13 I-AppVer
+8.2.10 I-AppVer
+and O
+9.0.4 I-AppVer
+the O
+â€˜sendemailâ€™ B-Component
+REST I-Component
+API I-Component
+endpoint I-Component
+lets O
+any O
+authenticated B-Victim
+user I-Victim
+send O
+an O
+email B-PlatformVer
+as O
+the O
+Splunk B-Platform 
+instance I-Platform
+The O
+endpoint O
+is O
+now O
+restricted B-Vul
+to O
+the O
+â€˜splunk-system-userâ€™ B-Victim
+account B-Victim
+on O
+the O
+local B-Platform 
+instance I-Platform
+
+Windows B-App
+Bluetooth I-App
+Driver I-App
+Elevation I-App
+of O 
+Privilege I-App 
+Vulnerability I-App
+
+Microsoft B-App
+WDAC I-App
+OLE I-App
+DB I-App
+provider I-App
+for O 
+SQL B-App
+Server I-App
+Remote I-App
+Code I-App
+Execution I-App
+Vulnerability I-App
+
+Adobe B-AppVer
+InDesign I-AppVer
+version I-AppVer
+18.0 I-AppVer
+(and earlier) I-AppVer
+17.4 I-AppVer
+(and earlier) I-AppVer
+are O
+affected O
+by O
+an O
+out-of-bounds B-Vul
+read I-Vul
+vulnerability I-Vul
+that O
+could O
+lead O
+to O
+disclosure B-Vul
+of I-Vul
+sensitive I-Vul
+memory I-Vul
+An B-Attacker
+attacker I-Attacker
+could O
+leverage O
+this O
+vulnerability B-Vul 
+to I-Vul
+bypass I-Vul
+mitigations I-Vul
+such O
+as O
+ASLR B-VulType
+Exploitation O
+of O
+this O
+issue O
+requires 
+user 
+interaction 
+in O
+that O
+a O
+victim B-Victim
+must O
+open O
+a B-VulType
+malicious I-VulType
+file I-VulType
 
