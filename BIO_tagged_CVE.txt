@@ -12,11 +12,7 @@ a O
 denial B-VulType 
 of I-VulType
 service I-Vultype 
-( I-Vultype 
-crash I-Vultype 
-or I-Vultype  
-hang I-Vultype 
-) I-Vultype 
+(crash or hang) B-Vultype 
 via O
 crafted B-Vector
 packets I-Vector
@@ -66,8 +62,8 @@ Arbitrary B-Impact
 command I-Impact
 execution I-Impact
 via O
-IMAP B-Vector
-buffer B-VulType
+IMAP B-VulType
+buffer I-VulType
 overflow I-VulType
 in O
 authenticate B-Component
@@ -105,11 +101,11 @@ PKCS B-Vector
 Buffer B-VulType
 overflow I-VulType
 in O
-NIS+ B-App
+NIS+ B-Component
 in O
-Sun's B-Component
-rpc.nisd I-Component
-program I-Component
+Sun's B-App
+rpc.nisd I-App
+program I-App
 
 Inverse B-VulType
 query I-VulType
@@ -176,12 +172,12 @@ file I-Vector
 names I-Vector
 
 A O
-filter B-Component
+filter B-MINICOMPO
 in O
 a O
-router B-Platform
+router B-Component
 or O
-firewall B-App
+firewall B-Component
 allows O
 unusual B-Vector
 fragmented I-Vector
@@ -285,7 +281,7 @@ gain B-Impact
 root I-Impact
 privileges I-Impact
 
-Vulnerability O
+Vulnerability B-VulType
 in O
 cvconnect B-Component
 in O
@@ -849,7 +845,7 @@ the O
 same O
 vulnerability O
 as O
-CVE-2000-1220 O
+CVE-2000-1220 B-CVEID
 . O
 
 In O
@@ -954,19 +950,19 @@ parameter I-Vector
 CGIscript.net B-Component
 csMailto.cgi I-Component
 program I-Component
-exports I-Component
-feedback I-Component
-to O
-a O
-file B-App
-that I-App
-is I-App
-accessible I-App
-from I-App
-the I-App
-web I-App
-document I-App
-root I-App
+exports B-Vul
+feedback I-Vul
+to I-Vul
+a I-Vul
+file I-Vul
+that I-Vul
+is I-Vul
+accessible I-Vul
+from I-Vul
+the I-Vul
+web I-Vul
+document I-Vul
+root I-Vul
 , O
 which O
 could O
@@ -1019,13 +1015,13 @@ feature I-Vector
 . O
 
 The O
-Host() B-Component
-function I-Component
+Host() B-MINICOMPO
+function I-MINICOMPO
 in O
 the O
-Microsoft B-App
-spreadsheet I-App
-component I-App
+Microsoft B-Component
+spreadsheet I-Component
+component I-Component
 on O
 Microsoft B-Platform
 Office I-Platform
@@ -1461,7 +1457,7 @@ a O
 long B-Vector
 (1) O
 query I-Vector
-or I-Vector
+or O
 (2) O
 reply I-Vector
 . O
@@ -1686,8 +1682,8 @@ formatted I-Vector
 email I-Vector
 . O
 
-Signedness B-Component
-error I-Component 
+Signedness B-MINICOMPO
+error I-MINICOMPO 
 in O
 the O
 copy_from_read_buf B-Component
@@ -1930,10 +1926,10 @@ Check B-Component
 Point I-Component
 SecuRemote I-Component
 NG I-Component
-with o
-Application B-App
-Intelligence I-App
-R54 B-AppVer
+with O
+Application B-MINICOMPO
+Intelligence I-MINICOMPO
+R54 I-MINICOMPO
 allows O
 attackers B-Attacker
 to O
@@ -2165,7 +2161,7 @@ the I-Impact
 file I-Impact
 . O
 
-frameset.htm B-Component
+frameset.htm B-MINICOMPO
 in O
 the O
 BSP B-Component
@@ -2280,8 +2276,8 @@ injection I-VulType
 vulnerability I-VulType
 in O
 the O
-mb_send_mail B-Component
-function I-Component
+mb_send_mail B-MINICOMPO
+function I-MINICOMPO
 in O
 PHP B-App
 before B-AppVer
@@ -2442,10 +2438,7 @@ injection I-VulType
 vulnerability I-VulType
 in O
 the O
-" B-Component
-user I-Component 
-area I-Component
-" I-Component
+"user area" B-Component
 in O
 RWS B-App
 Statistics I-App
@@ -2500,7 +2493,7 @@ a O
 different O
 vulnerability O
 than O
-CVE-2005-4664 O
+CVE-2005-4664 B-CVEID
 . O
 
 IBM B-App
@@ -2758,14 +2751,14 @@ code I-Impact
 via O
 a O
 URL B-Vector
-in I-Vector
-the I-Vector
+in O
+the O
 (1) O
-sayfaadi I-Vector
-or I-Vector
+sayfaadi B-Victim
+or O
 (2) O
-sayfa I-Vector
-parameter I-Vector
+sayfa I-Victim
+parameter I-Victim
 . O
 NOTE: O
 this O
@@ -2831,8 +2824,8 @@ the I-Impact
 password I-Impact
 . O
 
-The B-Component
-ncprwsnt I-Component
+The O
+ncprwsnt B-Component
 service I-Component
 in O
 NCP B-App
@@ -3056,8 +3049,8 @@ Unspecified B-VulType
 vulnerability I-VulType
 in O
 the O
-_cg_TIFFSetField B-Component
-function I-Component
+_cg_TIFFSetField B-MINICOMPO
+function I-MINICOMPO
 in O
 Mac B-Platform
 OS I-Platform
@@ -3131,7 +3124,7 @@ the I-Vector
 showprofile I-Vector
 page I-Vector
 in I-Vector
-index.php B-Component
+index.php B-Victim
 . O
 
 A O
@@ -3459,7 +3452,7 @@ and O
 URL B-Vector
 parameters I-Vector 
 in O
-register.php B-Component
+register.php B-Victim
 ; O
 and O
 allow O
@@ -4379,47 +4372,47 @@ INC I-Vector
 parameter I-Vector
 in O
 (1) O
-config_admin.php B-Vector
+config_admin.php B-Victim
 , O
 (2) O
-config_main.php B-Vector
+config_main.php B-Victim
 , O
 (3) O
-config_member.php B-Vector
+config_member.php B-Victim
 , O
 and O
 (4) O
-mysql_config.php B-Vector
-in I-Vector
-config/ I-Vector
+mysql_config.php B-Victim
+in I-Victim
+config/ I-Victim
 ; O
 (5) O
-admin.php B-Vector
+admin.php B-Victim
 and O
 (6) O
-index.php B-Vector
-in I-Vector
-admini/ I-Vector
+index.php B-Victim
+in I-Victim
+admini/ I-Victim
 ; O
 (7) O
-paypalipn/ipnprocess.php B-Vector
+paypalipn/ipnprocess.php B-Victim
 ; O
 (8) O
-index.php B-Vector
+index.php B-Victim
 and O
 (9) O
-registration.php B-Vector
-in I-Vector
-members/ I-Vector
+registration.php B-Victim
+in I-Victim
+members/ I-Victim
 ; O
 and O
 (10) O
-ppcbannerclick.php B-Vector
+ppcbannerclick.php B-Victim
 and O
 (11) O
-ppcclick.php B-Vector
-in I-Vector
-main/ I-Vector
+ppcclick.php B-Victim
+in I-Victim
+main/ I-Victim
 . O
 
 The O
@@ -4472,1620 +4465,1673 @@ vulnerability I-VulType
 in O
 ImageIO B-App
 in O
-Apple 
-Mac
-OS
-X
-10.3.9
-and
-10.4
-through
-10.4.8
-allows
-remote
-user-assisted
-attackers
-to
-cause
-a
-denial
-of
-service
-(application
-crash)
-and
-possibly
-execute
-arbitrary
-code
-via
-a
-crafted
-RAW
-image
-that
-triggers
-memory
-corruption.
+Apple B-Platform
+Mac I-Platform
+OS I-Platform
+X I-Platform
+10.3.9 B-PlatformVer
+and O
+10.4 B-PlatformVer
+through I-PlatformVer
+10.4.8 I-PlatformVer
+allows O
+remote B-Attacker
+user-assisted I-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(application crash) B-VulType
+and O
+possibly O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+crafted B-Vector
+RAW I-Vector
+image I-Vector
+that I-Vector
+triggers I-Vector
+memory I-Vector
+corruption I-Vector
+. O
 
----116---
-GUI
-overlay
-vulnerability
-in
-Mozilla
-Firefox
-1.5.x
-before
-1.5.0.10
-and
-2.x
-before
-2.0.0.2,
-and
-SeaMonkey
-before
-1.0.8
-allows
-remote
-attackers
-to
-spoof
-certain
-user
-interface
-elements,
-such
-as
-the
-host
-name
-or
-security
-indicators,
-via
-the
-CSS3
-hotspot
-property
-with
-a
-large,
-transparent,
-custom
-cursor.
+GUI B-VulType
+overlay I-VulType
+vulnerability I-VulType
+in O
+Mozilla B-App
+Firefox B-App 
+1.5.x B-AppVer
+before I-AppVer
+1.5.0.10 I-AppVer
+and 
+2.x B-AppVer
+before I-AppVer
+2.0.0.2 I-AppVer
+, O
+and O
+SeaMonkey B-App
+before B-AppVer 
+1.0.8 I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+spoof B-Impact
+certain I-Impact
+user I-Impact
+interface I-Impact
+elements I-Impact
+, O
+such O
+as O
+the O
+host B-Victim
+name I-Victim
+or O
+security B-Victim
+indicators I-Victim
+, O
+via O
+the O
+CSS3 B-Vector
+hotspot I-Vector
+property I-Vector
+with I-Vector
+a I-Vector
+large I-Vector
+, I-Vector
+transparent I-Vector
+, I-Vector
+custom I-Vector
+cursor I-Vector
+. O
 
----117---
-The
-PHP
-COM
-extensions
-for
-PHP
-on
-Windows
-systems
-allow
-context-dependent
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-WScript.Shell
-COM
-object,
-as
-demonstrated
-by
-using
-the
-Run
-method
-of
-this
-object
-to
-execute
-cmd.exe,
-which
-bypasses
-PHP's
-safe
-mode.
+The O
+PHP B-Component
+COM I-Component
+extensions I-Component
+for O
+PHP B-App
+on O
+Windows B-Platform
+systems I-Platform
+allow O
+context-dependent B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+WScript.Shell B-Vector
+COM I-Vector
+object I-Vector
+, I-Vector
+as I-Vector
+demonstrated I-Vector
+by I-Vector
+using I-Vector
+the I-Vector
+Run I-Vector
+method I-Vector
+of I-Vector
+this I-Vector
+object I-Vector
+to I-Vector
+execute I-Vector
+cmd.exe I-Vector
+, I-Vector
+which I-Vector
+bypasses I-Vector
+PHP's I-Vector
+safe I-Vector
+mode I-Vector
+. O
 
----118---
-The
-DirectShow
-loader
-(loader/dshow/DS_VideoDecoder.c)
-in
-MPlayer
-1.0rc1
-and
-earlier,
-as
-used
-in
-xine-lib,
-does
-not
-set
-the
-biSize
-before
-use
-in
-a
-memcpy,
-which
-allows
-user-assisted
-remote
-attackers
-to
-cause
-a
-buffer
-overflow
-and
-possibly
-execute
-arbitrary
-code,
-a
-different
-vulnerability
-than
-CVE-2007-1246.
+The O
+DirectShow B-Component
+loader I-Component
+(loader/dshow/DS_VideoDecoder.c) B-Component
+in O
+MPlayer B-App
+1.0rc1 B-AppVer
+and I-AppVer
+earlier I-AppVer
+, O
+as O
+used O
+in O
+xine-lib B-Platform
+, O
+does B-Vul
+not I-Vul
+set I-Vul
+the I-Vul
+biSize I-Vul
+before I-Vul
+use I-Vul
+in I-Vul
+a I-Vul
+memcpy I-Vul
+, O
+which O
+allows O
+user-assisted B-Attacker
+remote I-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+buffer B-VulType
+overflow I-VulType
+and O
+possibly O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+, O
+a O
+different O
+vulnerability O
+than O
+CVE-2007-1246 B-CVEID
+. O
 
----119---
-Stack-based
-buffer
-overflow
-in
-NewsBin
-Pro
-4.32
-allows
-remote
-attackers
-to
-cause
-a
-denial
-of
-service
-or
-execute
-arbitrary
-code
-via
-a
-yEnc
-(yEncode)
-encoded
-article
-with
-a
-long
-filename,
-as
-demonstrated
-using
-a
-.nzb
-file.
+Stack-based B-VulType
+buffer I-VulType
+overflow I-VulType
+in O
+NewsBin B-App
+Pro I-App
+4.32 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+or O
+execute B-Impact
+arbitrary I-Impact 
+code I-Impact
+via O
+a O
+yEnc B-Vector
+(yEncode) I-Vector
+encoded I-Vector
+article I-Vector
+with I-Vector
+a I-Vector
+long I-Vector
+filename I-Vector
+, I-Vector
+as I-Vector
+demonstrated I-Vector
+using I-Vector
+a I-Vector
+.nzb I-Vector
+file I-Vector
+. O
+NOTE: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
 
-NOTE:
-some
-of
-these
-details
-are
-obtained
-from
-third
-party
-information.
+Buffer B-VulType
+overflow I-VulType
+in O
+the O
+fun_ladd B-MINICOMPO
+function I-MINICOMPO
+in O
+funmath.cpp B-Component
+in O 
+TinyMUX B-App
+before B-AppVer
+20070126 I-AppVer
+might O
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(crash) B-VulType 
+or O
+possibly O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+unspecified B-Vector
+vectors I-Vector
+related I-Vector
+to I-Vector
+lists I-Vector
+of I-Vector
+numbers I-Vector
+. O
 
----120---
-Buffer
-overflow
-in
-the
-fun_ladd
-function
-in
-funmath.cpp
-in
-TinyMUX
-before
-20070126
-might
-allow
-remote
-attackers
-to
-cause
-a
-denial
-of
-service
-(crash)
-or
-possibly
-execute
-arbitrary
-code
-via
-unspecified
-vectors
-related
-to
-lists
-of
-numbers.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+viewcat.php B-MINICOMPO
+in O
+the O
+Tutoriais B-Component
+module I-Component
+for O
+Xoops B-App
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+cid B-Vector
+parameter I-Vector
+. O
 
----121---
-SQL
-injection
-vulnerability
-in
-viewcat.php
-in
-the
-Tutoriais
-module
-for
-Xoops
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-cid
-parameter.
+LIBSNDFILE.DLL B-Component
+, O
+as O
+used O
+by O
+AOL B-App
+Nullsoft I-App
+Winamp I-App
+5.33 B-AppVer
+and I-AppVer
+possibly I-AppVer
+other I-AppVer  
+products I-AppVer
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+crafted B-Vector
+.MAT I-Vector
+file I-Vector
+that I-Vector
+contains I-Vector
+a I-Vector
+value I-Vector
+that I-Vector
+is I-Vector
+used I-Vector
+as I-Vector
+an I-Vector
+offset I-Vector
+, I-Vector
+which I-Vector
+triggers I-Vector
+memory I-Vector
+corruption I-Vector
+. O
 
----122---
-LIBSNDFILE.DLL,
-as
-used
-by
-AOL
-Nullsoft
-Winamp
-5.33
-and
-possibly
-other
-products,
-allows
-remote
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-crafted
-.MAT
-file
-that
-contains
-a
-value
-that
-is
-used
-as
-an
-offset,
-which
-triggers
-memory
-corruption.
+Stephen B-App
+Craton I-App
+(aka WiredPHP) I-App
+Chatness I-App
+2.5.3 B-AppVer
+and I-AppVer
+earlier I-AppVer
+stores B-Vul
+usernames I-Vul
+and I-Vul
+unencrypted I-Vul
+passwords I-Vul
+in I-Vul
+(1) O
+classes/vars.php B-Component
+and O
+(2) O
+classes/varstuff.php B-Component
+, O
+and O
+recommends B-Vul
+0666 I-Vul
+or I-Vul
+0777 I-Vul
+permissions I-Vul
+for O
+these O
+files B-Component
+, O
+which O
+allows O
+local B-Attacker
+users I-Attacker
+to O
+gain B-Impact
+privileges I-Impact
+by O
+reading B-Vector
+the I-Vector
+files I-Vector
+, O
+and O
+allows O 
+remote B-Attacker
+attackers I-Attacker
+to O
+obtain B-Impact
+credentials I-Impact
+via O
+a O
+direct B-Vector
+request I-Vector
+for I-Vector
+admin/options.php B-Victim
+. O
 
----123---
-Stephen
-Craton
-(aka
-WiredPHP)
-Chatness
-2.5.3
-and
-earlier
-stores
-usernames
-and
-unencrypted
-passwords
-in
-(1)
-classes/vars.php
-and
-(2)
-classes/varstuff.php,
-and
-recommends
-0666
-or
-0777
-permissions
-for
-these
-files,
-which
-allows
-local
-users
-to
-gain
-privileges
-by
-reading
-the
-files,
-and
-allows
-remote
-attackers
-to
-obtain
-credentials
-via
-a
-direct
-request
-for
-admin/options.php.
+PHP B-VulType
+remote I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerability I-VulType
+in O
+info.php B-Component
+in O
+Doruk100.net B-App
+doruk100net I-App
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact
+code I-Impact
+via O
+a O
+URL B-Vector
+in I-Vector
+the I-Vector
+file I-Vector
+parameter I-Vector
+. O
 
----124---
-PHP
-remote
-file
-inclusion
-vulnerability
-in
-info.php
-in
-Doruk100.net
-doruk100net
-allows
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-the
-file
-parameter.
+The O
+Yahoo! B-App
+UI I-App
+framework I-App
+exchanges B-Vul
+data I-Vul
+using I-Vul
+JavaScript B-Component
+Object I-Component
+Notation I-Component 
+(JSON) I-Component
+without I-Vul
+an I-Vul
+associated I-Vul
+protection I-Vul
+scheme I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+obtain B-Impact
+the I-Impact
+data I-Impact 
+via O
+a O
+web B-Vector
+page I-Vector
+that I-Vector
+retrieves I-Vector 
+the I-Vector
+data I-Vector
+through I-Vector
+a I-Vector
+URL I-Vector
+in I-Vector
+the I-Vector
+SRC I-Vector
+attribute I-Vector
+of I-Vector
+a I-Vector
+SCRIPT I-Vector
+element I-Vector
+and P
+captures B-Impact
+the I-Impact
+data I-Impact
+using I-Impact
+other I-Impact
+JavaScript I-Impact
+code I-Impact
+, O
+aka O
+"JavaScript Hijacking." B-VulType
 
----125---
-The
-Yahoo!
-UI
-framework
-exchanges
-data
-using
-JavaScript
-Object
-Notation
-(JSON)
-without
-an
-associated
-protection
-scheme,
-which
-allows
-remote
-attackers
-to
-obtain
-the
-data
-via
-a
-web
-page
-that
-retrieves
-the
-data
-through
-a
-URL
-in
-the
-SRC
-attribute
-of
-a
-SCRIPT
-element
-and
-captures
-the
-data
-using
-other
-JavaScript
-code,
-aka
-"JavaScript
-Hijacking."
+** O
+DISPUTED O
+** O
 
----126---
-**
-DISPUTED
-**
+PHP B-VulType
+remote I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerability I-VulType
+in O
+user/turbulence.php B-Component
+in O
+PHP B-App
+Turbulence I-App
+0.0.1 B-AppVer
+alpha B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact
+code I-Impact 
+via O
+a O
+URL B-Vector
+in I-Vector
+the I-Vector
+GLOBALS[tcore] I-Vector
+parameter I-Vector
+. O
 
-PHP
-remote
-file
-inclusion
-vulnerability
-in
-user/turbulence.php
-in
-PHP
-Turbulence
-0.0.1
-alpha
-allows
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-the
-GLOBALS[tcore]
-parameter.
+NOTE: O
+this O
+vulnerability O
+is O 
+disputed O
+by O
+CVE O
+and O
+a O
+reliable O
+third O
+party O
+because O
+a O
+direct O
+request O
+to O
+user/turbulence.php O
+triggers O
+a O
+fatal O
+error O
+before O
+inclusion O
+. O
 
-NOTE:
-this
-vulnerability
-is
-disputed
-by
-CVE
-and
-a
-reliable
-third
-party
-because
-a
-direct
-request
-to
-user/turbulence.php
-triggers
-a
-fatal
-error
-before
-inclusion.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+W1L3D4_bolum.asp B-Component
+in O
+W1L3D4 B-App
+Philboard I-App
+0.2 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+forumid B-Vector
+parameter I-Vector
+, O
+a O
+different O
+vector O
+than O
+CVE-2007-0920 B-CVEID 
+. O
 
----127---
-SQL
-injection
-vulnerability
-in
-W1L3D4_bolum.asp
-in
-W1L3D4
-Philboard
-0.2
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-forumid
-parameter,
-a
-different
-vector
-than
-CVE-2007-0920.
+Stack-based B-VulType
+buffer I-VulType
+overflow I-VulType
+in O
+the O
+Anti-Virus B-App
+engine I-App
+before I-App
+content I-App
+update I-App
+30.6 B-AppVer
+in O
+multiple B-Platform
+CA I-Platform
+(formerly Computer Associates) I-Platform 
+products I-Platform
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+large B-Vector
+invalid I-Vector
+value I-Vector
+of I-Vector
+the I-Vector
+coffFiles I-Vector
+field I-Vector
+in I-Vector
+a I-Vector
+.CAB I-Vector
+file I-Vector
+. O
 
----128---
-Stack-based
-buffer
-overflow
-in
-the
-Anti-Virus
-engine
-before
-content
-update
-30.6
-in
-multiple
-CA
-(formerly
-Computer
-Associates)
-products
-allows
-remote
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-large
-invalid
-value
-of
-the
-coffFiles
-field
-in
-a
-.CAB
-file.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+mod_banners.php B-Component
+in O
+Elxis B-App
+CMS I-App
+before B-AppVer
+2006.4 I-AppVer
+20070613 I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+mb_tracker B-Vector
+cookie I-Vector
+. O
 
----129---
-SQL
-injection
-vulnerability
-in
-mod_banners.php
-in
-Elxis
-CMS
-before
-2006.4
-20070613
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-mb_tracker
-cookie.
+NOTE: O
+the O
+product O
+was O
+patched O
+without O
+updating O
+the O
+version O
+number O
+; O
+later O
+downloads O
+of O
+2006.4 O
+are O
+not O
+affected O
+. O
 
-NOTE:
-the
-product
-was
-patched
-without
-updating
-the
-version
-number;
-later
-downloads
-of
-2006.4
-are
-not
-affected.
+The O
+displaypost B-MINICOMPO
+function I-MINICOMPO
+in O
+cgi-bin/cgi-lib/forum_display.pl B-Component
+in O
+web-app.org B-App
+WebAPP I-App
+before B-AppVer
+0.9.9.7 I-AppVer
+does B-Vul
+not I-Vul
+display I-Vul
+usernames I-Vul
+in I-Vul
+conjunction I-Vul
+with I-Vul
+real I-Vul
+names I-Vul
+, O
+which O
+makes O
+it O
+easier O
+for O
+remote B-Attacker
+authenticated I-Attacker
+users I-Attacker
+to O
+impersonate B-Impact
+other I-Impact 
+users I-Impact
+. O
 
----130---
-The
-displaypost
-function
-in
-cgi-bin/cgi-lib/forum_display.pl
-in
-web-app.org
-WebAPP
-before
-0.9.9.7
-does
-not
-display
-usernames
-in
-conjunction
-with
-real
-names,
-which
-makes
-it
-easier
-for
-remote
-authenticated
-users
-to
-impersonate
-other
-users.
+Cross-site B-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerability I-VulType
+in O
+index.php B-Component
+in O
+Moodle B-App
+1.7.1 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+a O
+style B-Vector
+expression I-Vector
+in I-Vector
+the I-Vector
+search I-Vector
+parameter I-Vector
+, O
+a O
+different O
+vulnerability O
+than O
+CVE-2004-1424 B-CVEID
+. O
 
----131---
-Cross-site
-scripting
-(XSS)
-vulnerability
-in
-index.php
-in
-Moodle
-1.7.1
-allows
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-a
-style
-expression
-in
-the
-search
-parameter,
-a
-different
-vulnerability
-than
-CVE-2004-1424.
+Multiple B-VulType
+SQL I-VulType
+injection I-VulType
+vulnerabilities I-VulType
+in O
+eSyndiCat B-App
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+(1) O
+the O
+id B-Vector
+parameter I-Vector
+to O
+news.php B-Victim
+or O
+(2) O
+the O
+name B-Vector
+parameter I-Vector
+to O
+page.php B-Victim
+. O
 
----132---
-Multiple
-SQL
-injection
-vulnerabilities
-in
-eSyndiCat
-allow
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-(1)
-the
-id
-parameter
-to
-news.php
-or
-(2)
-the
-name
-parameter
-to
-page.php.
+Multiple B-VulType
+cross-site I-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerabilities I-VulType
+in O
+Webcit B-App
+before B-AppVer
+7.11 I-AppVer
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+(1) O
+the O
+who B-Vector
+parameter I-Vector
+to O
+showuser B-Victim
+; O
+and O
+other O
+vectors O
+involving O
+(2) O
+calendar B-Vector
+mode I-Vector
+, O
+(3) O
+bulletin B-Vector
+board I-Vector
+mode I-Vector
+, O
+(4) O
+room B-Vector
+names I-Vector
+, O
+and O
+(5) O
+uploaded B-Vector
+file I-Vector
+names I-Vector
+. O
 
----133---
-Multiple
-cross-site
-scripting
-(XSS)
-vulnerabilities
-in
-Webcit
-before
-7.11
-allow
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-(1)
-the
-who
-parameter
-to
-showuser;
-and
-other
-vectors
-involving
-(2)
-calendar
-mode,
-(3)
-bulletin
-board
-mode,
-(4)
-room
-names,
-and
-(5)
-uploaded
-file
-names.
+Multiple B-VulType
+cross-site I-VulTypeC
+scripting I-VulType
+(XSS) I-VulType
+vulnerabilities I-VulType
+in O
+AlstraSoft B-App
+Text I-App
+Ads I-App
+Enterprise I-App
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+the O
+(1) O
+r B-Vector
+parameter I-Vector
+to O
+(a) O
+forgot_uid.php B-Victim
+, O
+the O
+(2) O
+query B-Vector
+or O
+(3) O
+sk B-Vector
+parameter I-Vector
+to O
+(b) O
+search_results.php B-Victim
+, O
+or O
+(4) O
+the O
+pageId B-Vector
+parameter I-Vector
+to O
+(c) O
+website_page.php B-Victim
+. O
 
----134---
-Multiple
-cross-site
-scripting
-(XSS)
-vulnerabilities
-in
-AlstraSoft
-Text
-Ads
-Enterprise
-allow
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-the
-(1)
-r
-parameter
-to
-(a)
-forgot_uid.php,
-the
-(2)
-query
-or
-(3)
-sk
-parameter
-to
-(b)
-search_results.php,
-or
-(4)
-the
-pageId
-parameter
-to
-(c)
-website_page.php.
+The O
+Visionsoft B-MINICOMPO
+Audit I-MINICOMPO
+on O
+Demand B-Component
+Service I-Component
+(VSAOD) I-Component
+in O
+Visionsoft B-App
+Audit I-App
+12.4.0.0 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+obtain B-Impact
+sensitive I-Impact
+information I-Impact
+via O
+(1) O
+a O
+LOG.ON B-Vector
+command I-Vector
+, I-Vector
+which I-Vector
+reveals I-Vector 
+the I-Vector
+logging I-Vector
+pathname I-Vector
+in I-Vector
+the I-Vector
+server I-Vector
+response I-Vector
+; O
+(2) O
+a O
+VER B-Vector
+command I-Vector
+, I-Vector
+which I-Vector
+reveals I-Vector
+the I-Vector
+version I-Vector
+number I-Vector
+in I-Vector
+the I-Vector
+server I-Vector
+response I-Vector
+; O
+and O
+(3) O
+a O
+connection B-Vector
+, I-Vector
+which I-Vector
+reveals I-Vector
+the I-Vector
+version I-Vector
+number I-Vector
+in I-Vector
+the I-Vector
+banner I-Vector
+. O
 
----135---
-The
-Visionsoft
-Audit
-on
-Demand
-Service
-(VSAOD)
-in
-Visionsoft
-Audit
-12.4.0.0
-allows
-remote
-attackers
-to
-obtain
-sensitive
-information
-via
-(1)
-a
-LOG.ON
-command,
-which
-reveals
-the
-logging
-pathname
-in
-the
-server
-response;
-(2)
-a
-VER
-command,
-which
-reveals
-the
-version
-number
-in
-the
-server
-response;
-and
-(3)
-a
-connection,
-which
-reveals
-the
-version
-number
-in
-the
-banner.
+Cross-site B-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerability I-VulType
+in O
+index.php B-Component
+in O
+the O
+Blue B-App
+Memories I-App
+theme I-App 
+1.5 B-AppVer
+for O 
+WordPress B-Platform
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+the O
+s B-Vector
+parameter I-Vector
+, O
+possibly O
+a O
+related O
+issue O
+to O
+CVE-2007-2757 B-CVEID
+and O
+CVE-2007-4014 B-CVEID
+. O
 
----136---
-Cross-site
-scripting
-(XSS)
-vulnerability
-in
-index.php
-in
-the
-Blue
-Memories
-theme
-1.5
-for
-WordPress
-allows
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-the
-s
-parameter,
-possibly
-a
-related
-issue
-to
-CVE-2007-2757
-and
-CVE-2007-4014.
+NOTE: O
+the O
+provenance O
+of O
+this O
+information O
+is O
+unknown O
+; O
+the O
+details O
+are O
+obtained O
+solely O
+from O
+third O
+party O
+information O
+. O
 
-NOTE:
-the
-provenance
-of
-this
-information
-is
-unknown;
-the
-details
-are
-obtained
-solely
-from
-third
-party
-information.
+Unspecified B-VulType
+vulnerability I-VulType
+in O
+Dell B-Platform
+Remote I-Platform
+Access I-Platform
+Card I-Platform
+4 B-PlatformVer
+(DRAC4) B-Platform
+with O
+firmware B-App
+1.50 B-AppVer
+Build I-AppVer
+02.16 I-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType
+(SSH daemon crash) I-VulType
+via O
+certain B-Vector
+network I-Vector
+traffic I-Vector
+, I-Vector
+as I-Vector
+demonstrated I-Vector
+by I-Vector
+an I-Vector
+"nmap -O" I-Vector
+scan I-Vector
+with I-Vector
+nmap I-Vector
+4.03 I-Vector
+, O
+possibly O
+related O
+to O
+a O
+Mocana B-VulType
+(Mocanada) I-VulType
+SSH I-VulType
+vulnerability I-VulType
+. O
 
----137---
-Unspecified
-vulnerability
-in
-Dell
-Remote
-Access
-Card
-4
-(DRAC4)
-with
-firmware
-1.50
-Build
-02.16
-allows
-remote
-attackers
-to
-cause
-a
-denial
-of
-service
-(SSH
-daemon
-crash)
-via
-certain
-network
-traffic,
-as
-demonstrated
-by
-an
-"nmap
--O"
-scan
-with
-nmap
-4.03,
-possibly
-related
-to
-a
-Mocana
-(Mocanada)
-SSH
-vulnerability.
+IBM B-App
+DB2 I-App
+UDB I-App
+8 B-AppVer
+before I-AppVer
+Fixpak I-AppVer
+15 I-AppVer
+does B-Vul
+not I-Vul
+properly I-Vul
+check I-Vul
+authorization I-Vul
+, O
+which O
+allows B-Attacker
+remote I-Attacker
+authenticated I-Attacker
+users I-Attacker
+with O 
+a O
+certain I-Attacker
+SELECT I-Attacker
+privilege I-Attacker
+to O
+have O
+an O
+unknown B-Impact
+impact I-Impact
+via O
+unspecified B-Vector
+vectors I-Vector
+. O
 
----138---
-IBM
-DB2
-UDB
-8
-before
-Fixpak
-15
-does
-not
-properly
-check
-authorization,
-which
-allows
-remote
-authenticated
-users
-with
-a
-certain
-SELECT
-privilege
-to
-have
-an
-unknown
-impact
-via
-unspecified
-vectors.
+NOTE: O
+this O
+issue O
+is O
+probably O
+related O
+to O
+CVE-2007-1089 B-CVEID
+, O
+but O
+this O
+is O
+uncertain O
+due O
+to O
+lack O
+of O
+details O
+. O
 
-NOTE:
-this
-issue
-is
-probably
-related
-to
-CVE-2007-1089,
-but
-this
-is
-uncertain
-due
-to
-lack
-of
-details.
+Cross-site B-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerability I-VulType
+in O
+search.html B-Component
+in O
+Search B-App
+Engine I-App
+Builder I-App
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+the O
+searWords B-Vector
+parameter I-Vector
+. O
 
----139---
-Cross-site
-scripting
-(XSS)
-vulnerability
-in
-search.html
-in
-Search
-Engine
-Builder
-allows
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-the
-searWords
-parameter.
+Stack-based B-VulType
+buffer I-VulType
+overflow I-VulType
+in O
+the O
+process_packet B-MINICOMPO
+function I-MINICOMPO
+in O
+fbserver.exe B-Component
+in O 
+Firebird B-App
+SQL I-App
+2.0.2 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+long B-Vector
+request I-Vector
+to I-Vector
+TCP B-Victim
+port I-Victim
+3050 I-Victim
+. O
 
----140---
-Stack-based
-buffer
-overflow
-in
-the
-process_packet
-function
-in
-fbserver.exe
-in
-Firebird
-SQL
-2.0.2
-allows
-remote
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-long
-request
-to
-TCP
-port
-3050.
+Multiple B-VulType
+cross-site I-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerabilities I-VulType
+in O
+Simple B-App
+PHP I-App
+Blog I-App
+(SPHPBlog) I-App
+before B-AppVer 
+0.5.1 I-AppVer
+, O
+when O
+register_globals B-Setting
+is I-Setting
+enabled I-Setting
+, O
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+certain B-Vector
+user_colors I-Vector
+array I-Vector
+parameters I-Vector
+to I-Vector
+certain I-Vector
+user_style.php I-Vector
+files I-Vector
+under I-Vector
+themes/ I-Vector
+, I-Vector
+as I-Vector
+demonstrated I-Vector
+by I-Vector
+the I-Vector
+user_colors[bg_color] I-Vector
+parameter I-Vector
+. O
 
----141---
-Multiple
-cross-site
-scripting
-(XSS)
-vulnerabilities
-in
-Simple
-PHP
-Blog
-(SPHPBlog)
-before
-0.5.1,
-when
-register_globals
-is
-enabled,
-allow
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-certain
-user_colors
-array
-parameters
-to
-certain
-user_style.php
-files
-under
-themes/,
-as
-demonstrated
-by
-the
-user_colors[bg_color]
-parameter.
+Multiple B-VulType
+PHP I-VulType
+remote I-VulType
+file I-VulType
+inclusion I-VulType
+vulnerabilities I-VulType
+in O
+eArk B-App
+(e-Ark) I-App
+1.0 B-AppVer
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+PHP I-Impact
+code I-Impact
+via O
+a O
+URL B-Vector
+in I-Vector
+(1) O
+the I-Vector
+cfg_vcard_path I-Vector
+parameter I-Vector
+to O
+src/vcard_inc.php B-Victim
+or O
+(2) O
+the O
+cfg_phpmailer_path I-Vector
+parameter I-Vector
+to O
+src/email_inc.php B-Victim
+. O
 
----142---
-Multiple
-PHP
-remote
-file
-inclusion
-vulnerabilities
-in
-eArk
-(e-Ark)
-1.0
-allow
-remote
-attackers
-to
-execute
-arbitrary
-PHP
-code
-via
-a
-URL
-in
-(1)
-the
-cfg_vcard_path
-parameter
-to
-src/vcard_inc.php
-or
-(2)
-the
-cfg_phpmailer_path
-parameter
-to
-src/email_inc.php.
+NOTE: O
+the O
+ark_inc.php O
+vector O
+is O
+already O
+covered O
+by O
+CVE-2006-6086 B-CVEID
+. O
 
-NOTE:
-the
-ark_inc.php
-vector
-is
-already
-covered
-by
-CVE-2006-6086.
+Unspecified B-VulType
+vulnerability I-VulType
+in O
+Opera B-App
+before B-AppVer
+9.24 I-AppVer
+, O
+when O
+using B-Setting
+an I-Setting
+"external" I-Setting
+newsgroup I-Setting
+or I-Setting
+e-mail I-Setting
+client I-Setting
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+commands I-Impact 
+via O
+unknown B-Vector 
+vectors I-Vector
+. O
 
----143---
-Unspecified
-vulnerability
-in
-Opera
-before
-9.24,
-when
-using
-an
-"external"
-newsgroup
-or
-e-mail
-client,
-allows
-remote
-attackers
-to
-execute
-arbitrary
-commands
-via
-unknown
-vectors.
+Cross-site B-VulType
+scripting I-VulType
+(XSS) I-VulType
+vulnerability I-VulType
+in O
+lostpwd.php B-Component
+in O
+Creative B-App
+Digital I-App
+Resources I-App
+SocketMail I-App
+2.2.1 B-AppVer
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+inject B-Impact
+arbitrary I-Impact
+web I-Impact
+script I-Impact
+or O
+HTML I-Impact
+via O
+the O
+lost_id B-Vector
+parameter I-Vector
+. O
 
----144---
-Cross-site
-scripting
-(XSS)
-vulnerability
-in
-lostpwd.php
-in
-Creative
-Digital
-Resources
-SocketMail
-2.2.1
-allows
-remote
-attackers
-to
-inject
-arbitrary
-web
-script
-or
-HTML
-via
-the
-lost_id
-parameter.
+The O
+jar B-Component
+protocol I-Component
+handler I-Component
+in O
+Mozilla B-App
+Firefox I-App
+before B-AppVer
+2.0.0.10 I-AppVer
+and O
+SeaMonkey B-App
+before B-AppVer
+1.1.7 I-AppVer
+retrieves B-Vul
+the I-Vul
+inner I-Vul
+URL I-Vul
+regardless I-Vul
+of I-Vul
+its I-Vul
+MIME I-Vul
+type I-Vul
+, O
+and O
+considers B-Vul
+HTML I-Vul
+documents I-Vul
+within I-Vul
+a I-Vul
+jar I-Vul
+archive I-Vul
+to I-Vul
+have I-Vul
+the I-Vul
+same I-Vul
+origin I-Vul
+as I-Vul
+the I-Vul
+inner I-Vul
+URL I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+conduct O 
+cross-site B-VulType
+scripting I-VulType
+(XSS) I-VulType
+attacks I-VulType
+via O
+a O
+jar: B-Vector
+URI I-Vector
+. O
 
----145---
-The
-jar
-protocol
-handler
-in
-Mozilla
-Firefox
-before
-2.0.0.10
-and
-SeaMonkey
-before
-1.1.7
-retrieves
-the
-inner
-URL
-regardless
-of
-its
-MIME
-type,
-and
-considers
-HTML
-documents
-within
-a
-jar
-archive
-to
-have
-the
-same
-origin
-as
-the
-inner
-URL,
-which
-allows
-remote
-attackers
-to
-conduct
-cross-site
-scripting
-(XSS)
-attacks
-via
-a
-jar:
-URI.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+default.asp B-Component
+in O
+VU B-App
+Case I-App
+Manager I-App 
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact 
+SQL I-Impact
+commands I-Impact
+via O
+the O
+username B-Vector
+parameter I-Vector
+, O
+a O
+different O
+vector O
+than O
+CVE-2007-6143 B-CVEID
+. O
 
----146---
-SQL
-injection
-vulnerability
-in
-default.asp
-in
-VU
-Case
-Manager
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-username
-parameter,
-a
-different
-vector
-than
-CVE-2007-6143.
+NOTE: O
+the O
+provenance O
+of O
+this O
+information O
+is O
+unknown O
+; O
+the O
+details O
+are O
+obtained O
+solely O
+from O
+third O
+partyO 
+information O
+. O
 
-NOTE:
-the
-provenance
-of
-this
-information
-is
-unknown;
-the
-details
-are
-obtained
-solely
-from
-third
-party
-information.
+Buffer B-VulType
+overflow I-VulType
+in O
+the O
+YShortcut B-MINICOMPO
+ActiveX I-MINICOMPO
+control I-MINICOMPO
+in O
+YShortcut.dll B-Component
+2006.8.15.1 B-ComponentVer
+in O
+Yahoo! B-App
+Toolbar I-App
+might O
+allow O
+attackers B-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+code I-Impact
+via O
+a O
+long B-Vector
+string I-Vector
+to O
+the O
+IsTaggedBM B-Victim
+method I-Victim
+. O
 
----147---
-Buffer
-overflow
-in
-the
-YShortcut
-ActiveX
-control
-in
-YShortcut.dll
-2006.8.15.1
-in
-Yahoo!
-Toolbar
-might
-allow
-attackers
-to
-execute
-arbitrary
-code
-via
-a
-long
-string
-to
-the
-IsTaggedBM
-method.
+Unspecified B-VulType
+vulnerability I-VulType
+in O
+the O
+Supervisor B-App
+Engine I-App
+32 B-AppVer
+(Sup32) B-App
+,
+Supervisor B-App
+Engine I-App
+720 B-AppVer
+(Sup720) B-App  
+,
+and O
+Route B-App
+Switch I-App
+Processor I-App
+720 B-AppVer
+(RSP720) B-App
+for O
+multiple B-Platform
+Cisco I-Platform
+products I-Platform
+, O
+when O
+using B-Setting
+Multi I-Setting
+Protocol I-Setting
+Label I-Setting
+Switching I-Setting
+(MPLS) I-Setting
+VPN I-Setting
+and I-Setting
+OSPF I-Setting
+sham-link I-Setting
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+cause O
+a O
+denial B-VulType
+of I-VulType
+service I-VulType 
+(blocked queue, device restart, or memory leak) I-VulType
+via O
+unknown B-Vector
+vectors I-Vector
+. O
 
----148---
-Unspecified
-vulnerability
-in
-the
-Supervisor
-Engine
-32
-(Sup32),
-Supervisor
-Engine
-720
-(Sup720),
-and
-Route
-Switch
-Processor
-720
-(RSP720)
-for
-multiple
-Cisco
-products,
-when
-using
-Multi
-Protocol
-Label
-Switching
-(MPLS)
-VPN
-and
-OSPF
-sham-link,
-allows
-remote
-attackers
-to
-cause
-a
-denial
-of
-service
-(blocked
-queue,
-device
-restart,
-or
-memory
-leak)
-via
-unknown
-vectors.
+Symantec B-App
+Ghost I-App
+Solution I-App
+Suite I-App
+1.1 B-AppVer
+before I-AppVer
+1.1 I-AppVer
+patch I-AppVer
+2 I-AppVer
+, O
+2.0.0 B-AppVer
+, O
+and O
+2.0.1 B-AppVer
+does B-Vul
+not I-Vul
+authenticate I-Vul
+connections I-Vul
+between I-Vul
+the I-Vul
+console I-Vul
+and I-Vul
+the I-Vul
+Ghost I-Vul
+Management I-Vul
+Agent I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+commands I-Impact
+via O
+unspecified B-Vector
+RPC I-Vector
+requests I-Vector
+in I-Vector
+conjunction B-Victim
+with I-Victim
+ARP I-Victim
+spoofing I-Victim
+. O
 
----149---
-Symantec
-Ghost
-Solution
-Suite
-1.1
-before
-1.1
-patch
-2,
-2.0.0,
-and
-2.0.1
-does
-not
-authenticate
-connections
-between
-the
-console
-and
-the
-Ghost
-Management
-Agent,
-which
-allows
-remote
-attackers
-to
-execute
-arbitrary
-commands
-via
-unspecified
-RPC
-requests
-in
-conjunction
-with
-ARP
-spoofing.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+index.php B-MINICOMPO
+in O
+the O
+com_profile B-Component
+component I-Component
+for O
+Joomla! B-App
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+oid B-Vector
+parameter I-Vector
+. O
 
----150---
-SQL
-injection
-vulnerability
-in
-index.php
-in
-the
-com_profile
-component
-for
-Joomla!
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-oid
-parameter.
+comix B-App
+3.6.4 B-AppVer
+allows O
+attackers B-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+commands I-Impact
+via O
+a O
+filename B-Vector
+containing I-Vector
+shell I-Vector
+metacharacters I-Vector
+that I-Vector
+are I-Vector
+not I-Vector
+properly I-Vector
+sanitized I-Vector
+when I-Vector
+executing I-Vector
+the I-Vector
+rar I-Vector
+, I-Vector
+unrar I-Vector
+, I-Vector
+or I-Vector
+jpegtran I-Vector
+programs I-Vector
+. O
 
----151---
-comix
-3.6.4
-allows
-attackers
-to
-execute
-arbitrary
-commands
-via
-a
-filename
-containing
-shell
-metacharacters
-that
-are
-not
-properly
-sanitized
-when
-executing
-the
-rar,
-unrar,
-or
-jpegtran
-programs.
+SQL B-VulType
+injection I-VulType
+vulnerability I-VulType
+in O
+content/user.php B-Component
+in O
+AuraCMS B-App
+2.2.1 B-AppVer
+and I-AppVer
+earlier I-AppVer
+, O
+when O
+magic_quotes_gpc B-Setting
+is I-Setting
+disabled I-Setting
+, O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+execute B-Impact
+arbitrary I-Impact
+SQL I-Impact
+commands I-Impact
+via O
+the O
+country B-Vector
+parameter I-Vector
+. O
 
----152---
-SQL
-injection
-vulnerability
-in
-content/user.php
-in
-AuraCMS
-2.2.1
-and
-earlier,
-when
-magic_quotes_gpc
-is
-disabled,
-allows
-remote
-attackers
-to
-execute
-arbitrary
-SQL
-commands
-via
-the
-country
-parameter.
+Sony B-App
+Mylo I-App
+COM-2 I-App
+Japanese I-App
+model I-App
+firmware I-App
+before B-AppVer
+1.002 I-AppVer
+does B-Vul
+not I-Vul
+properly I-Vul
+verify I-Vul
+web I-Vul
+server I-Vul
+SSL I-Vul
+certificates I-Vul
+, O
+which O
+allows O
+remote B-Attacker
+attackers I-Attacker
+to O
+obtain B-Impact
+sensitive I-Impact
+information I-Impact
+and O
+conduct B-Impact
+spoofing I-Impact
+attacks I-Impact
+. O
 
----153---
-Sony
-Mylo
-COM-2
-Japanese
-model
-firmware
-before
-1.002
-does
-not
-properly
-verify
-web
-server
-SSL
-certificates,
-which
-allows
-remote
-attackers
-to
-obtain
-sensitive
-information
-and
-conduct
-spoofing
-attacks.
-
----154---
-Multiple
-directory
-traversal
-vulnerabilities
-in
-Aterr
-0.9.1
-allow
-remote
-attackers
-to
-include
-and
-execute
-arbitrary
-local
-files
-via
-a
-..
-(dot
-dot)
-in
-the
-(1)
-class
-parameter
-to
-include/functions.inc.php
-and
-the
-(2)
-file
-parameter
-to
-include/common.inc.php.
+Multiple B-VulType
+directory I-VulType
+traversal I-VulType
+vulnerabilities I-VulType
+in O
+Aterr B-App
+0.9.1 B-AppVer
+allow O
+remote B-Attacker
+attackers I-Attacker
+to O
+include B-Impact
+and I-Impact
+execute I-Impact
+arbitrary I-Impact
+local I-Impact
+files I-Impact
+via O
+a O
+.. B-Vector
+(dot dot) I-Vector
+in O
+the O
+(1) O
+class I-Vector
+parameter I-Vector
+to O
+include/functions.inc.php B-Victim
+and O
+the O
+(2) O
+file I-Vector
+parameter I-Vector
+to O
+include/common.inc.php B-Victim
+. O
 
 ---155---
 Unspecified
@@ -6797,7 +6843,8 @@ a
 similar
 vulnerability
 to
-CVE-2008-5077.
+CVE-2008-5077 B-CVEID
+.
 
 ---175---
 The
