@@ -40,4 +40,4 @@ trainer : ModelTrainer = ModelTrainer(tagger, corpus)
 trainer.train('example-ner',
               learning_rate=0.1,
               mini_batch_size=4,
-              max_epochs=200)
+              max_epochs=2000)
