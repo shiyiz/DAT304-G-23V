@@ -9,12 +9,12 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-Vultype
-crash B-VultypeAKA
-or I-VultypeAKA
-hang I-VultypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+crash B-Impact
+or I-Impact
+hang I-Impact
 via O
 crafted B-Vector
 packets I-Vector
@@ -46,7 +46,7 @@ in O
 Tooltalk B-App
 database I-App
 server I-App
-rpc.ttdbserverd B-App
+rpc.ttdbserverd I-App
 
 MIME B-VulType
 buffer I-VulType
@@ -220,9 +220,9 @@ users I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
+denial B-Impact
+of I-Impact
+service I-Impact
 by O
 creating B-Vector
 a I-Vector
@@ -299,8 +299,8 @@ arbitrary I-Impact
 files I-Impact
 
 The O
-default B-Setting
-installation I-Setting
+default O
+installation O
 of O
 VirusScan B-App
 4.5 B-AppVer
@@ -340,7 +340,7 @@ Trojan I-Vector
 Horse I-Vector
 
 The O
-installation B-Setting
+installation O
 of O
 J-Pilot B-App
 creates O
@@ -416,11 +416,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-application B-VultypeAKA
-crash I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+application B-Impact
+crash I-Impact
 via O
 a O
 large B-Vector
@@ -494,11 +494,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-resource B-VultypeAKA
-exhaustion I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+resource B-Impact
+exhaustion I-Impact
 by O
 requesting B-Vector
 a I-Vector
@@ -545,8 +545,8 @@ new O
 variant O
 of O
 the O
-Malformed I-VulTypeAKA
-Hit-Highlighting B-VulTypeAKA
+Malformed I-VulType
+Hit-Highlighting B-VulType
 vulnerability O
 . O
 
@@ -650,7 +650,7 @@ URL I-Vector
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 WebCT B-App
@@ -754,11 +754,11 @@ R1Q2 I-AppVer
 on O
 Windows B-Platform
 , O
-as B-Setting
-used I-Setting
-in I-Setting
-multiple I-Setting
-products I-Setting
+as O
+used O
+in O
+multiple O
+products O
 , O
 allows O
 remote B-Attacker
@@ -870,7 +870,7 @@ parameter I-Vector
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 Invision B-App
@@ -899,7 +899,7 @@ request I-Vector
 Multiple B-VulType
 cross-site I-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerabilities I-VulType
 in O
 IlohaMail B-App
@@ -1026,7 +1026,7 @@ channels_edit.asp I-Vector
 Multiple B-VulType
 cross-site I-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerabilities I-VulType
 in O
 McAfee B-App
@@ -1120,7 +1120,7 @@ script I-Vector
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 index.php B-Component
@@ -1306,7 +1306,7 @@ SAP B-App
 Web I-App
 Application I-App
 Server I-App
-WAS B-AppAKA
+WAS B-App
 6.10 B-AppVer
 through I-AppVer
 7.00 I-AppVer
@@ -1464,7 +1464,7 @@ parameter I-Vector
 Multiple B-VulType
 cross-site I-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerabilities I-VulType
 in O
 Sitekit B-App
@@ -1544,7 +1544,7 @@ issues. O
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 search B-Component
@@ -1637,7 +1637,7 @@ IBM B-App
 DB2 I-App
 Universal I-App
 Database I-App
-UDB B-AppAKA
+UDB B-App
 810 B-AppVer
 before I-AppVer
 8.1 I-AppVer
@@ -1647,13 +1647,13 @@ remote B-Attacker
 authenticated I-Attacker
 users I-Attacker
 to O
-cause B-Impact
-a I-Impact
-denial B-VulType
-of I-VulType
-service I-VulType
-application B-VulTypeAKA
-crash I-VulTypeAKA
+cause O
+a O
+denial B-Impact
+of I-Impact
+service I-Impact
+application B-Impact
+crash I-Impact
 via O
 1 O
 certain B-Vector
@@ -1687,7 +1687,7 @@ IBM B-App
 WebSphere I-App
 Application I-App
 Server I-App
-WAS B-AppAKA
+WAS B-App
 5.0.2.5 B-AppVer
 through I-AppVer
 5.1.1.3 I-AppVer
@@ -1806,7 +1806,7 @@ cookie I-Vector
 
 Selective B-Component
 Acknowledgement I-Component
-SACK B-ComponentAKA
+SACK B-Component
 in O
 FreeBSD B-App
 5.3 B-AppVer
@@ -1834,11 +1834,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-infinite B-VulTypeAKA
-loop I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+infinite B-Impact
+loop I-Impact
 . O
 
 The O
@@ -1852,12 +1852,12 @@ users I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-NFS B-VulTypeAKA
-client I-VulTypeAKA
-panic I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+NFS B-Impact
+client I-Impact
+panic I-Impact
 via O
 unknown B-Vector
 attack I-Vector
@@ -1927,9 +1927,9 @@ Email I-App
 Marketing I-App
 System I-App
 3.0 B-AppVer
-aka B-AppAKA
-Oi! I-AppAKA
-3 I-AppAKA
+aka B-App
+Oi! I-App
+3 I-App
 stores B-Vul
 the I-Vul
 server's I-Vul
@@ -2024,8 +2024,8 @@ Lemon I-App
 3.2.0 I-App
 , O
 with O
-magic_quotes_gpc B-Setting
-disabled I-Setting
+magic_quotes_gpc O
+disabled O
 , O
 allows O
 remote B-Attacker
@@ -2043,7 +2043,7 @@ parameter I-Vector
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 index.php B-Component
@@ -2220,11 +2220,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-application B-VulTypeAKA
-crash I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+application B-Impact
+crash I-Impact
 via O
 a O
 crafted B-Vector
@@ -2310,17 +2310,17 @@ and O
 7 B-AppVer
 , O
 aka O
-URL B-VulTypeAKA
-Redirect I-VulTypeAKA
-Cross I-VulTypeAKA
-Domain I-VulTypeAKA
-Information I-VulTypeAKA
-Disclosure I-VulTypeAKA
-Vulnerability. I-VulTypeAKA
+URL B-VulType
+Redirect I-VulType
+Cross I-VulType
+Domain I-VulType
+Information I-VulType
+Disclosure I-VulType
+Vulnerability. I-VulType
 
 Cross-site B-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerability I-VulType
 in O
 superalbum/index.php B-Component
@@ -2436,7 +2436,7 @@ cookie I-Vector
 Multiple B-VulType
 cross-site I-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerabilities I-VulType
 in O
 ClickGallery B-App
@@ -2500,10 +2500,10 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-crash B-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+crash B-Impact
 by O
 declaring B-Vector
 the I-Vector
@@ -2570,14 +2570,14 @@ used I-Vector
 Multiple B-VulType
 cross-site I-VulType
 scripting I-VulType
-XSS B-VulTypeAKA
+XSS I-VulType
 vulnerabilities I-VulType
 in O
 Kailash B-App
 Nadh I-App
 boastMachine I-App
-formerly B-AppAKA
-bMachine I-AppAKA
+formerly B-App
+bMachine I-App
 3.1 B-AppVer
 and I-AppVer
 earlier I-AppVer
@@ -2765,7 +2765,7 @@ mode I-Vector
 The O
 DirectShow B-Component
 loader I-Component
-loader/dshow/DS_VideoDecoder.c B-ComponentAKA
+loader/dshow/DS_VideoDecoder.c B-Component
 in O
 MPlayer B-App
 1.0rc1 B-AppVer
@@ -2824,9 +2824,9 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
+denial B-Impact
+of I-Impact
+service I-Impact
 or O
 execute B-Impact
 arbitrary I-Impact
@@ -2881,10 +2881,10 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-crash B-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+crash B-Impact
 or O
 possibly O
 execute B-Impact
@@ -2970,8 +2970,8 @@ corruption I-Vector
 
 Stephen B-App
 Craton I-App
-aka B-AppAKA
-WiredPHP I-AppAKA
+aka B-App
+WiredPHP I-App
 Chatness I-App
 2.5.3 B-AppVer
 and I-AppVer
@@ -3139,9 +3139,9 @@ and I-AppVer
 earlier I-AppVer
 , O
 when O
-magic_quotes_gpc B-Setting
-is I-Setting
-disabled I-Setting
+magic_quotes_gpc O
+is O
+disabled O
 , O
 allows O
 remote B-Attacker
@@ -3266,11 +3266,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-stack B-VulTypeAKA
-consumption I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+stack B-Impact
+consumption I-Impact
 via O
 unknown B-Vector
 network I-Vector
@@ -3341,7 +3341,7 @@ in O
 Africa B-App
 Be I-App
 Gone I-App
-ABG B-AppAKA
+ABG B-App
 1.0a B-AppVer
 allows O
 remote B-Attacker
@@ -3377,11 +3377,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-daemon B-VulTypeAKA
-crash I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+daemon B-Impact
+crash I-Impact
 via O
 multiple B-Vector
 long I-Vector
@@ -3423,7 +3423,7 @@ in O
 profile_comments.php
 in O
 SocialEngine B-Component
-SE B-ComponentAKA
+SE B-Component
 2.7 B-ComponentVer
 and I-ComponentVer
 earlier I-ComponentVer
@@ -3495,7 +3495,7 @@ Way B-App
 Of I-App
 The I-App
 Warrior I-App
-WOTW B-AppAKA
+WOTW B-App
 5.0 B-AppVer
 and I-AppVer
 earlier I-AppVer
@@ -3611,11 +3611,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-segmentation B-VulTypeAKA
-fault I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+segmentation B-Impact
+fault I-Impact
 or O
 possibly O
 execute B-Impact
@@ -3708,7 +3708,7 @@ a O
 similar O
 vulnerability O
 to O
-CVE-2008-5077 B-CVEID B-CVEID
+CVE-2008-5077 B-CVEID
 . O
 
 The O
@@ -3742,9 +3742,9 @@ C.2.3 B-AppVer
 , O
 with O
 the O
-pedantic B-Setting
-option I-Setting
-enabled I-Setting
+pedantic O
+option O
+enabled O
 , O
 allows O
 remote B-Attacker
@@ -3753,10 +3753,10 @@ users I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-crash B-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+crash B-Impact
 via O
 a O
 SIP B-Vector
@@ -3795,8 +3795,8 @@ through I-AppVer
 1.0.6 I-AppVer
 , O
 when O
-running B-Setting
-on I-Setting
+running O
+on O
 Windows B-Platform
 , O
 allows O
@@ -3805,10 +3805,10 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-crash B-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+crash B-Impact
 via O
 unknown B-Vector
 attack I-Vector
@@ -3995,12 +3995,12 @@ a I-Vector
 cell I-Vector
 , O
 aka O
-Excel B-VulTypeAKA
-Formula I-VulTypeAKA
-Parsing I-VulTypeAKA
-Memory I-VulTypeAKA
-Corruption I-VulTypeAKA
-Vulnerability. I-VulTypeAKA
+Excel B-VulType
+Formula I-VulType
+Parsing I-VulType
+Memory I-VulType
+Corruption I-VulType
+Vulnerability. I-VulType
 
 Uebimiau B-App
 Webmail I-App
@@ -4125,7 +4125,7 @@ The O
 Internet B-Component
 Authentication I-Component
 Service I-Component
-IAS B-ComponentAKA
+IAS I-Component
 in O
 Microsoft B-Platform
 Windows I-Platform
@@ -4182,10 +4182,10 @@ malformed B-Vector
 request I-Vector
 , O
 aka O
-MS-CHAP B-VulTypeAKA
-Authentication I-VulTypeAKA
-Bypass I-VulTypeAKA
-Vulnerability. I-VulTypeAKA
+MS-CHAP B-VulType
+Authentication I-VulType
+Bypass I-VulType
+Vulnerability. I-VulType
 
 ytnef B-App
 has O
@@ -4353,7 +4353,7 @@ in O
 the O
 Webesse B-App
 E-Card I-App
-ws_ecard B-AppAKA
+ws_ecard B-App
 extension B-AppVer
 1.0.2 I-AppVer
 and I-AppVer
@@ -4399,11 +4399,11 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-device B-VulTypeAKA
-reload I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+device B-Impact
+reload I-Impact
 via O
 an O
 attempted B-Vector
@@ -4417,9 +4417,9 @@ server I-Vector
 related O
 to O
 a O
-corrupted B-VulTypeAKA
-magic I-VulTypeAKA
-value, I-VulTypeAKA
+corrupted B-VulType
+magic I-VulType
+value, I-VulType
 aka O
 Bug O
 ID O
@@ -4429,7 +4429,7 @@ CSCso05336 O
 The O
 Application-Level B-Component
 Gateway I-Component
-ALG B-ComponentAKA
+ALG B-Component
 on O
 the O
 Apple B-App
@@ -4612,9 +4612,9 @@ the O
 GSSAPI B-Component
 library I-Component
 that O
-implements B-Setting
-NTLM I-Setting
-authentication I-Setting
+implements O
+NTLM O
+authentication O
 has B-Vul
 an I-Vul
 out-of-bounds I-Vul
@@ -4813,14 +4813,14 @@ operations I-Vul
 on I-Vul
 improper I-Vul
 ports I-Vul
-UDP B-VulAKA
-162 I-VulAKA
-and I-VulAKA
-a I-VulAKA
-randomly I-VulAKA
-chosen I-VulAKA
-UDP I-VulAKA
-port I-VulAKA
+UDP B-Vul
+162 I-Vul
+and I-Vul
+a I-Vul
+randomly I-Vul
+chosen I-Vul
+UDP I-Vul
+port I-Vul
 , O
 which O
 allows O
@@ -4829,12 +4829,12 @@ attackers I-Attacker
 to O
 cause O
 a O
-denial B-VulType
-of I-VulType
-service I-VulType
-device B-VulTypeAKA
-reload I-VulTypeAKA
-and I-VulTypeAKA
-memory I-VulTypeAKA
-corruption I-VulTypeAKA
+denial B-Impact
+of I-Impact
+service I-Impact
+device B-Impact
+reload I-Impact
+and I-Impact
+memory I-Impact
+corruption I-Impact
 . O

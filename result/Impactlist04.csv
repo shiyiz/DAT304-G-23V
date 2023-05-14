@@ -1,0 +1,3933 @@
+Impact
+gain privileges
+denial of service
+resource exhaustion
+gain privileges
+incorrectly accept a signature
+spoof requests from other users
+denial of service
+execute arbitrary code
+null byte to be written beyond the buffer
+pointer to reference memory
+null byte to be written beyond the buffer
+pointer to reference memory beyond the terminating null byte
+denial of service
+execute arbitrary code
+denial of service
+execute arbitrary code
+denial of service
+execute arbitrary code
+forge a client certificate
+gain privileges
+execute arbitrary code
+denial of service
+crash
+execute arbitrary code
+gain privileges
+create and execute PHP files
+unauthorized database operations
+execute arbitrary commands
+modify the Notes configuration
+gain privileges
+execute arbitrary PHP code
+reinstall the software and change the administrator password
+inject arbitrary HTML and web script
+obtain sensitive information
+inject arbitrary HTML or web script
+execute arbitrary SQL commands
+steal sensitive information
+execute arbitrary commands
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+bypass intended access restrictions
+identify valid usernames
+denial of service
+crash
+execute arbitrary code
+gain access with a valid username
+execute arbitrary code
+inject arbitrary web script or HTML
+gain privileges
+denial of service
+obtain the full pathname of the document root
+bypass content restrictions
+bypass content restrictions
+bypass content restrictions
+denial of service
+execute arbitrary code
+denial of service
+segmentation fault
+denial of service
+execute arbitrary code
+denial of service
+segmentation fault
+overwrite arbitrary files
+overwrite arbitrary files
+dot dot
+denial of service
+crash
+bypass directory access restrictions
+negative totals
+incorrect security-critical decisions
+overwrite arbitrary files
+execute arbitrary SQL
+obtain the absolute path of the web server
+inject arbitrary HTML or web script
+execute arbitrary PHP code
+execute arbitrary code
+execute arbitrary PHP code
+read arbitrary files
+read arbitrary files
+execute arbitrary PHP code
+gain privileges
+denial of service
+gain root privileges
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+leak sensitive data
+denial of service
+infinite loop
+overwrite
+enable the account with a more easily guessable password
+execute arbitrary code
+execute arbitrary code
+unknown impact
+modify network settings
+modify network settings
+gain privileges
+unknown impact
+inject arbitrary HTML or web script
+unknown impact
+denial of service
+execute arbitrary code
+denial of service
+execute arbitrary code when using the GLX extension and Direct Rendering Infrastructure
+DRI
+denial of service
+memory consumption
+crash
+execute arbitrary code
+buffer overflow
+denial of service
+httpd crash
+denial of service
+execute arbitrary code
+bypass intended access restrictions
+gain privileges
+buffer overflow
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+overwrite arbitrary files
+overflow kernel memory
+execute arbitrary code
+execute arbitrary code
+denial of service
+crash
+denial of service
+crash
+denial of service
+memory consumption
+gain read
+write access to a portion of kernel memory
+gain privileges
+truncate and overwrite arbitrary files
+execute arbitrary code
+denial of service
+memory consumption
+execute arbitrary code
+access protected kernel memory
+execute arbitrary code
+denial of service
+crash
+null dereference
+execute arbitrary code
+denial of service
+use script code in the Local Machine zone
+execute arbitrary programs
+read arbitrary files
+denial of service
+execute arbitrary code
+network communications
+modify the routing table
+gain read
+write privileges to files and directories within another jail
+read arbitrary files
+execute arbitrary PHP programs on the server
+dot dot
+execute arbitrary PHP code
+read arbitrary files
+dot dot
+obtain sensitive information
+the information to be leaked in an error message
+denial of service
+crash
+execute arbitrary PHP code
+obtain sensitive information
+gain privileges
+gain privileges
+writing to kernel memory
+denial of service
+system crash
+denial of service
+system panic
+denial of service
+crash
+unknown impact
+denial of service
+reset
+bypass access restrictions
+prevent access to their home directory
+use the root directory
+gain privileges
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+denial of service
+crash
+establish unauthorized IP connections
+denial of service
+execute arbitrary code
+execute arbitrary code
+gain 'games' group privileges
+denial of service
+execute arbitrary code
+execute arbitrary code
+bypass content restrictions
+bypass content restrictions
+be interpreted as other fields
+denial of service
+resource exhaustion
+delete certificates
+read arbitrary pppd process data
+gain privileges
+denial of service
+crash
+Assert error to be triggered in the BufferIsFull function
+denial of service
+resource
+exhaustion of memory buffers
+system crash
+prevents the operating system
+from creating new connections
+read arbitrary files
+dot dot encoded backslash
+denial of service
+blocked new connections
+overwrite arbitrary files
+denial of service
+execute arbitrary code
+information leak
+obtain portions of kernel memory
+denial of service
+crash
+execute arbitrary code
+create arbitrary files using certain
+obtain sensitive information
+denial of service
+crash
+denial of service
+crash
+denial of service
+crash
+denial of service
+execute arbitrary code
+gain root privileges
+execute arbitrary code
+bypass url
+regex ACLs
+use only a portion of the requested URL when comparing it against the access control lists
+steal the password
+gain privileges
+interact with the previous page
+zombie document
+steal cookies
+hijack a management session
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+access the DVD Upgrade capability
+execute arbitrary code
+execute arbitrary commands
+denial of service
+application crash
+insert arbitrary script and spoof content in HTML email or web caches
+read
+delete arbitrary files
+execute arbitrary code
+remotely execute arbitrary code
+gain privileges
+buffer overflow
+gain privileges
+change properties of privileged programs
+access kernel memory
+gain privileges
+execute arbitrary code
+EMF
+execute arbitrary code
+buffer overflow
+denial of service
+system crash
+execute arbitrary code
+gain system privileges
+launch winhlp32
+denial of service
+application crash
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+create or append to arbitrary files
+denial of service
+infinite loop
+denial of service
+crash
+denial of service
+denial of service
+crash
+denial of service
+memory exhaustion
+execute arbitrary code
+denial of service
+execute arbitrary code
+execute arbitrary code
+gain privileges
+unknown impact
+guess sequence numbers
+denial of service
+connection loss
+persistent TCP connections
+denial of service
+execute arbitrary code
+device names that contain
+dot dot
+overwrite arbitrary files
+execute arbitrary code
+overflow when testing or extracting the archive
+create arbitrary files
+gain
+unauthorized access
+read arbitrary files
+execute arbitrary code in the client
+execute arbitrary code
+gain
+unauthorized access
+view arbitrary files
+dot dot
+execute arbitrary commands
+gain sensitive information
+guess the password
+denial of service
+hang or reset
+denial of service
+crash
+execute arbitrary PHP code
+denial of service
+crash
+read unexpected memory
+execute arbitrary script as other users
+gain access to other accounts
+gain privileges
+execute arbitrary script as other users
+denial of service
+CPU consumption
+execute arbitrary programs
+denial of service
+execute arbitrary script as other users
+denial of service
+views the log file
+buffer overflow
+overwrite arbitrary files
+denial of service
+crash
+execute arbitrary code
+bypass access restrictions
+delete arbitrary files
+bypass authentication
+access the control panel
+execute arbitrary code
+obtain sensitive information
+denial of service
+crash
+execute arbitrary script as other users
+obtain the administrator password
+overwrite arbitrary files
+denial of service
+hang
+inject arbitrary SQL code
+gain sensitive information
+denial of service
+crash
+assert error in clamd that terminates the calling program
+execute arbitrary web script as other users
+inject arbitrary SQL code
+gain sensitive information
+upload arbitrary files
+dot dot
+use STAT
+promote a bot to a sharebot and conduct unauthorized activities
+obtain sensitive information
+gain access
+denial of service
+crash
+denial of service
+crash
+execute arbitrary code
+denial of service
+CPU consumption
+repeatedly check the socket for more data
+overwrite arbitrary files
+view JSP source
+gain sensitive information
+view the contents of the /WEB-INF/ directory
+denial of service
+crash
+overwrite arbitrary files
+denial of service
+CPU consumption
+save encrypted pages to disk
+execute arbitrary PHP code
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+buffer overflow
+execute arbitrary code
+denial of service
+segmentation fault
+execute arbitrary code
+obtain hashed passwords
+denial of service
+crash
+execute arbitrary code
+retrieve arbitrary files
+dot dot
+identify valid users
+conduct a brute force password guessing attack
+denial of service
+CPU consumption
+TsFtpSrv.exe
+exit with an exception
+denial of service
+crash
+execute arbitrary code
+denial of service
+CPU consumption
+denial of service
+crash
+inject arbitrary SQL
+gain unauthorized access
+inject arbitrary HTML
+read arbitrary files
+dot dot
+retrieve arbitrary files
+gain
+unauthorized access
+execute arbitrary commands
+execute arbitrary script as other users
+steal session IDs
+GET or PUT ONS system files on the current active TCC
+denial of service
+reset
+gain
+unauthorized access
+execute arbitrary code
+execute Javascript as other users
+gain unauthorized access
+gain access to read
+write communtiy strings
+denial of service
+execute arbitrary code
+execute arbitrary script as other users
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+denial of service
+segmentation fault
+execute arbitrary code
+gain privileges
+execute arbitrary script as other users
+access secrets stored in the module's run-time memory
+denial of service
+crash
+read unallocated memory
+execute arbitrary script as other users
+inject arbitrary SQL and gain privileges
+execute arbitrary code
+denial of service
+CPU consumption
+execute arbitrary code
+retrieve arbitrary files
+dot dot
+bypass authentication
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+gain privileges
+execute arbitrary code
+bypass Basic Authorization
+obtain a directory listing
+gain sensitive information
+execute arbitrary SQL queries
+execute arbitrary script or HTML as other users
+execute arbitrary code
+denial of service
+CPU consumption
+denial of service
+crash
+execute arbitrary SQL
+delete arbitrary files
+dot dot
+execute arbitrary code
+gain privileges
+execute arbitrary script as other users
+execute arbitrary SQL
+view arbitrary files
+dot dot
+obtain the private key by factoring
+to the database to decrypt data
+denial of service
+device reset
+gain privileges
+execute arbitrary code
+gain sensitive information
+execute arbitrary code
+execute arbitrary code
+execute arbitrary script as other users
+execute arbitrary script as other users
+gain privileges
+denial of service
+segmentation fault
+execute arbitrary code
+execute arbitrary code
+execute arbitrary programs
+denial of service
+crash
+execute arbitrary SQL statements
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+read kernel memory
+system
+panic
+control of a realm to impersonate others in the cross-realm trust path
+overwrite arbitrary files
+expose the content of arbitrary variables
+read
+modify sensitive SQL information
+denial of service
+infinite loop
+denial of service
+crash
+execute arbitrary commands
+process arbitrary web content
+steal cookies
+bypass domain restrictions
+execute arbitrary code
+overwrite arbitrary files
+unknown impact
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+denial of service
+crash
+gain
+unauthorized access to an X session
+add new users
+modify existing users
+change configuration
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code on the client
+denial of service
+execute arbitrary code during sender verification
+denial of service
+execute arbitrary code during the header check
+execute arbitrary code
+denial of service
+memory consumption
+overwrite arbitrary files
+read arbitrary files
+dot dot
+denial of service
+disk consumption
+execute arbitrary code
+execute arbitrary code
+manipulate the options that are passed to the associated programs
+read arbitrary files
+execute arbitrary code
+obtain user passwords
+denial of service
+memory consumption
+execute arbitrary code
+NULL terminator from being used
+denial of service
+crash
+arbitrary code execution
+access portions of kernel memory
+execute arbitrary code
+server crash
+temporary data to remain undeleted
+consume disk space
+write for a single byte
+execute arbitrary code
+modify critical program data
+connect to the port
+violation of the intended restrictions
+execute arbitrary code
+denial of service
+crash
+overwrite arbitrary files of the Emacs user
+overwrite arbitrary files
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+write files outside of the module's path
+denial of service
+memory exhaustion
+unknown impact
+unknown impact
+execute arbitrary code
+execute arbitrary code
+bypass intended access restrictions
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+cache consistency problems
+prevent certain changes to files from being committed to disk
+denial of service
+crash
+access an invalid socket
+denial of service
+execute arbitrary code
+denial of service
+CPU consumption
+infinite loop
+denial of service
+unknown impact
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+read
+delete arbitrary files and directories
+read files and directories
+denial of service
+emulator crash
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+denial of service
+server crash
+denial of service
+to appear busy
+prevents
+devices from transmitting data
+denial of service
+server crash
+execute arbitrary code
+buffer overflow
+denial of service
+server crash
+execute arbitrary code
+send those cookies in plaintext over
+read keys within arbitrary INI formatted files
+denial of service
+hang
+denial of service
+routing disabled
+denial of service
+memory exhaustion
+device reboot
+execute arbitrary code during VPN tunnel negotiation
+remove intended access restrictions for the associated web application
+denial of service
+service shutdown
+insert options to the resulting command line
+overwrite arbitrary files
+read
+execute arbitrary files
+execute arbitrary local
+denial of service
+reboot
+packet loss
+bypass authentication
+denial of service
+high CPU
+RAM consumption
+denial of service
+crash
+execute arbitrary code
+corrupt arbitrary files
+read sensitive kernel memory
+perform other unauthorized activities
+denial of service
+infinite loop
+denial of service
+crash
+write arbitrary files
+execute arbitrary code
+denial of service
+resource consumption
+execute arbitrary programs
+execute arbitrary code
+execute arbitrary code
+conduct port forwarding
+use the SCRIPT_FILENAME variable to find and execute a script
+execute arbitrary PHP code as other users
+mlock more memory than specified
+denial of service
+process crash
+execute arbitrary code
+denial of service
+memory exhaustion
+certain unauthorized actions
+gain privileges
+access kernel memory
+gain privileges
+access kernel memory
+modify the group ID of files
+denial of service
+crash
+denial of service
+execute arbitrary code
+bypass intended access restrictions
+request a URL from a remote site
+know when a message has been read
+verify valid e-mail addresses
+leak other information
+bypass zone restrictions
+exploit other issues that rely on predictable locations
+bypass the default zone restrictions
+execute script within media files
+bypasses Media Player's setting to disallow scripting
+unprompted installation of an executable when exploited in conjunction with predictable-file-location exposures
+denial of service
+crash
+denial of service
+assert error
+denial of service
+crash
+denial of service
+execute arbitrary code
+execute arbitrary code
+denial of service
+denial of service
+unknown impact
+handling of console log files
+unknown impact
+execute arbitrary script as other users
+steal authentication information
+insert arbitrary HTML and script
+execute unauthorized SQL statements
+unknown impact
+bypass authentication
+obtain Gallery administrator privileges
+execute arbitrary code as root
+gain root privileges
+denial of service
+hang
+spoof a legitimate URL in the status bar
+spoof a legitimate URL in the status bar
+spoof a legitimate URL in the status bar
+execute untrusted shared scripts
+gain privileges
+execute arbitrary code as the PHP user
+delete arbitrary files on the server
+inject arbitrary web script or HTML
+read portions of kernel memory
+buffer overflow
+gain privileges
+spoof a trusted domain
+execute arbitrary code without warning the user
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+overwrite files
+access internal environment variables
+execute arbitrary SQL procedures and queries
+gain privileges
+overwrite arbitrary files
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code in the Local Security context
+execute code such as Javascript
+execute arbitrary code
+denial of service
+system crash
+reload
+bypass detection
+denial of service
+system crash
+execute arbitrary code
+execute arbitrary code
+denial of service
+service hang
+overwrite arbitrary files at install time
+denial of service
+execute arbitrary code
+denial of service
+execute arbitrary code
+"gain sensitive information, such as a username and password"
+overwrite arbitrary files
+read register values of other processes
+execute arbitrary code
+execute arbitrary code
+denial of service
+server crash
+unchecked buffer
+execute arbitrary code
+buffer overflow
+read active memory
+denial of service
+system crash
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+denial of service
+server crash
+read arbitrary files from the root directory
+read arbitrary files
+execute arbitrary code as root
+obtain sensitive information
+delete arbitrary files
+bypass access control rules
+gain read access to configuration information for a module
+guess user IDs and passwords
+execute arbitrary script as other users
+execute arbitrary code
+denial of service
+insert arbitrary HTML and script
+denial of service
+device reload
+authenticate using spoofed PKCS
+inject arbitrary web script or HRML
+denial of service
+CPU consumption
+bypass filtering rules
+execute arbitrary code
+dangerous tags to be processed by web browsers
+ignore null characters
+exploitation of cross-site scripting
+denial of service
+execute arbitrary code
+denial of service
+application crash
+denial of service
+application crash
+execute arbitrary code
+bypass intended restrictions
+access kernel memory
+gain privileges
+system
+panic
+execute arbitrary commands
+denial of service
+crash
+denial of service
+execute arbitrary scripts as other users
+bypass authentication
+execute arbitrary code
+determine the existence of files in a directory outside the jail
+denial of service
+connection refusal
+denial of service
+new connections
+bypass the mobile code filtering
+view sensitive uploaded files
+execute arbitrary code
+limit
+upload a file of any size
+inject arbitrary script or HTML
+"obtain sensitive information such as the password, which is stored in plaintext"
+inject arbitrary script or HTML
+denial of service
+crash
+denial of service
+crash
+execute arbitrary code
+buffer overflow
+inject arbitrary HTML or script as other users
+gain administrative privileges
+lists all users and their passwords
+obtain sensitive information
+execute arbitrary code
+execute arbitrary PHP code
+bypass authentication
+gain privileges
+denial of service
+CPU consumption
+bypass authentication
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+buffer overflow
+denial of service
+process abort
+denial of service
+process crash
+denial of service
+process crash
+execute arbitrary code
+execute commands with additional privileges
+execute arbitrary code
+inject arbitrary HTML or script
+execute arbitrary code
+spoof or hijack TCP connections
+execute arbitrary code
+execute arbitrary code
+denial of service
+infinite loop
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+launch arbitrary programs
+execute arbitrary code
+upload and execute arbitrary files
+denial of service
+virtual machine hang
+obtain the username and password for booting the server
+gain other user's passwords
+denial of service
+kernel panic
+create arbitrary files
+denial of service
+return the wrong date
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+inject arbitrary script or HTML
+denial of service
+IP lease depletion
+gain sensitive information
+inject arbitrary script or HTML
+list arbitrary directories
+dot dot
+gain sensitive information
+denial of service
+application crash
+buffer overflow
+gain elevated privileges
+denial of service
+server crash
+change their quota
+denial of service
+device reboot
+read mail from other users
+execute script as other users
+execute arbitrary web script as other users
+denial of service
+crash
+execute arbitrary web script
+create or delete arbitrary files
+dot dot
+denial of service
+temporary hang
+access to the floppy drive
+execute arbitrary script as other users
+hide IP addresses
+use brute force methods
+gain other user's IP addresses
+gain unauthorized access
+execute web script as other users
+change the prices of items
+denial of service
+CPU consumption
+denial of service
+obtain sensitive information
+unknown impact
+execute arbitrary code
+execute arbitrary code
+create or truncate arbitrary files
+gain
+unauthorized access
+denial of service
+application crash
+execute arbitrary code
+denial of service
+application crash
+denial of service
+application crash
+execute arbitrary code
+list arbitrary directories
+read the php.ini configuration file
+obtain sensitive information
+read and modify arbitrary files
+execute arbitrary code
+execute arbitrary messages
+stay logged in
+gain unauthorized access
+gain sensitive information
+grant memberships to groups that the user does not control
+view hidden products
+execute arbitrary JavaScript as other users
+view the password in the web server log files
+grant membership to any group
+execute arbitrary SQL
+gain privileges
+bypass access restrictions
+denial of service
+device crash
+reload
+bypass intended access restrictions
+gain privileges
+remove EJB objects from remote views
+denial of service
+device reload and memory corruption
+gain privileges
+execute arbitrary code
+web site spoofing
+web site spoofing
+web site spoofing
+web site spoofing
+web site spoofing
+execute arbitrary code
+bypass sandbox restrictions
+read
+write certain data between applets from different domains
+denial of service
+server
+client crash
+inject arbitrary web script or HTML
+execute arbitrary script in the local computer zone
+bypass zone restrictions
+execute arbitrary code in the local computer zone
+denial of service
+crash
+read or write to an invalid memory address
+gain sensitive information
+inject arbitrary web script or HTML
+inject arbitrary script as other users
+execute arbitrary SQL statements
+denial of service
+crash
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+gain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary SQL
+denial of service
+client crash
+execute arbitrary code
+denial of service
+server crash
+reload
+hang
+buffer overflow
+denial of service
+crash
+hang
+buffer overflow
+obtain Calendar Server privileges
+modify Calendar data
+information leak
+denial of service
+memory
+resource consumption
+execute arbitrary commands
+set cookies for country-specific top-level domains
+session fixation attack
+gain apache privileges
+denial of service
+CPU consumption
+enter an infinite loop
+gain sensitive information
+incorrect permissions
+squash option from being applied
+denial of service
+segmentation fault
+read or list files of other users
+denial of service
+infinite loop
+denial of service
+execute arbitrary code
+steal session information and hijack sessions
+execute arbitrary code
+denial of service to SSL pages
+read arbitrary files
+open a URI as a different MIME type
+use
+spoof the security lock icon that makes a web page appear to be encrypted
+install arbitrary extensions
+spoof certificates of trusted web sites
+hijack the user interface
+spoof trusted certificates
+denial of service
+system crash
+denial of service
+system crash
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+execute arbitrary code
+denial of service
+CPU and memory exhaustion
+execute arbitrary code
+execute arbitrary code
+determine the existence of arbitrary files and directories
+cached password to be sent in cleartext to a spoofed site
+execute arbitrary code
+inject arbitrary web script
+execute arbitrary code
+execute arbitrary code
+execute arbitrary commands
+denial of service
+execute arbitrary code
+denial of service
+child
+process crash
+inject arbitrary web script or HTML
+denial of service
+application crash
+denial of service
+CPU and network bandwidth consumption
+triggering a communications loop
+denial of service
+reset TCP connections
+denial of service
+read
+write certain files
+execute arbitrary commands
+denial of service
+execute arbitrary code
+gain privileges
+denial of service
+denial of service
+application crash
+execute arbitrary code
+denial of service
+server crash
+gain privileges
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+gain privileges
+denial of service
+infinite loop and memory exhaustion
+to be spawned and enter an infinite loop
+denial of service
+denial of service
+child
+process crash
+denial of service
+server
+process crash
+obtain access to restricted resources contrary to the specified authentication configuration
+denial of service
+crash
+execute arbitrary code
+bypass read-only access
+unauthorized write and erase operations
+obtain portions of kernel data
+denial of service
+panic
+bypass the specified share restrictions
+read
+write
+list arbitrary files
+denial of service
+application crash
+execute arbitrary code
+denial of service
+crash
+execute arbitrary script in the Local computer zone
+gain privileges
+execute arbitrary code
+use hashed (crypt
+re-use hashed passwords without decrypting them
+overwrite system files
+denial of service
+application deadlock
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+modify or create arbitrary files
+denial of service
+daemon crash
+denial of service
+service crash
+unhandled exception
+browse for files
+gain privileges
+denial of service
+application crash
+use Sendmail as an open mail relay
+execute arbitrary code
+conduct unauthorized activities
+denial of service
+execute arbitrary code
+denial of service
+crash
+hang
+alter MERGE table UNIONs
+read the password directly from the device
+access the password protected part of the drive
+install arbitrary programs
+drop the program in the local startup folder
+execute arbitrary code
+install arbitrary programs
+denial of service
+application crash
+memory corruption
+alter displayed address bars
+spoof web pages
+alter displayed address bars
+spoof web pages
+obtain information
+spoof content
+execute arbitrary code
+bypass authentication
+aspx files in restricted directories
+execute arbitrary code
+carriage return
+denial of service
+daemon crash
+gain privileges
+overwrite arbitrary files
+execute arbitrary code
+set cookies for country-specific top-level domains
+session fixation attack
+set cookies for country-specific top-level domains
+session fixation attack
+steal cookies
+conduct unauthorized activities
+steal cookies
+conduct unauthorized activities
+steal cookies
+conduct unauthorized activities
+steal cookies
+conduct unauthorized activities
+execute arbitrary programs
+insert arbitrary HTML or web script
+overwrite arbitrary files
+write files in arbitrary directories
+execute arbitrary code
+denial of service
+crash
+gain sensitive information from kernel memory
+find
+execute arbitrary code
+bypass intended restrictions
+denial of service
+crash or memory corruption
+gain root privileges
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+spoof trusted Internet content on a specially crafted webpage
+gain privileges
+gain privileges
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+perform cross-domain scripting
+execute arbitrary code
+drag and drop javascript
+overwrite arbitrary files
+execute arbitrary code
+create
+overwrite those files
+execute arbitrary code
+read and write to the clipboard
+obtain sensitive information
+trick users into performing unexpected actions
+modify the meaning of certain security-relevant dialog messages
+denial of service
+gain administrator privileges
+modify configuration
+obtain sensitive information
+denial of service
+application crash
+execute arbitrary code
+gain sensitive information
+overwrite arbitrary files
+dot dot
+gain sensitive information
+unauthorized activities
+denial of service
+server restart
+read arbitrary kernel memory
+avoid detection
+denial of service
+application crash
+terminate authenticated user mounts
+change a write-only AFP Drop Box to be read-write
+read the Drop Box
+obtain user names and passwords
+prevent other valid users
+execute arbitrary code
+decrypt sessions
+bypass authentication and view source files
+execute arbitrary code
+denial of service
+CPU consumption
+denial of service
+crash
+bypass antivirus protection
+bypass antivirus protection
+bypass antivirus protection
+bypass antivirus protection
+bypass antivirus protection
+bypass antivirus protection
+denial of service
+server crash
+guess passwords
+create SSI documents
+execute arbitrary code as the apache user
+execute arbitrary code
+denial of service
+CPU consumption
+hijack other sessions
+denial of service
+resource exhaustion
+execute arbitrary code
+execute arbitrary code
+read arbitrary kernel information
+"obtain sensitive hostname, username and local IP address information"
+obtain sensitive information
+set world-writable permissions on part of the directory tree
+modify data or cause disk consumption
+denial of service
+application crash
+execute arbitrary code
+denial of service
+application crash
+grants privileges to other databases that have similar names
+conduct unauthorized activities
+read sensitive memory contents
+calculate an incorrect string length
+upload files to arbitrary locations
+denial of service
+core dump
+denial of service
+memory exhaustion
+execute arbitrary code when loginwindow is active
+denial of service
+application exception
+execute arbitrary code in winword.exe
+execute arbitrary code
+execute arbitrary code
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+overwrite files
+execute arbitrary code
+enable security-sensitive operations that are inconsistent with the user's intended configuration
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+denial of service
+infinite loop and CPU consumption
+gain privileges
+execute arbitrary code
+fail to load and protect the system
+execute arbitrary code
+denial of service
+memory consumption
+execute arbitrary code
+denial of service
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+gain privileges
+execute arbitrary code
+denial of service
+application crash
+delete arbitrary files or directories
+unauthorized activities
+denial of service
+daemon crash
+access an incorrect memory location
+obtain potentially sensitive information
+disable the anti-virus capability
+unknown impact
+unknown impact
+execute arbitrary code
+denial of service
+application crash
+LF
+execute arbitrary code
+buffer overflow
+denial of service
+infinite loop
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+out-of-bounds memory corruption
+execute arbitrary code
+out-of-bounds memory corruption
+denial of service
+server
+process crash
+execute arbitrary code
+denial of service
+system hang
+deadlock condition
+unknown impact
+denial of service
+execute arbitrary code
+information disclosure
+negative reference index
+execute programs
+decrypt the user database
+obtain the passwords
+modify programs
+install malicious DLLs in the plug-ins folder
+modify XML files related to configuration
+denial of service
+application crash
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+overwrite arbitrary files
+dot dot
+execute arbitrary programs
+load unsafe classes
+execute arbitrary code
+access private Java packages
+gain sensitive information
+bypass access restrictions
+load an arbitrary configuration file
+delete arbitrary files
+create arbitrary empty files
+bypass access restrictions
+read fcron.allow
+fcron.deny
+denial of service
+application crash
+execute arbitrary code
+denial of service
+server crash
+leak sensitive information
+execute arbitrary web script or HTML
+execute arbitrary commands
+read and write to sensitive memory
+denial of service
+memory exhaustion
+launch a separate process for each request
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+buffer overflow
+gain privileges
+inject arbitrary web script or HTML
+denial of service
+X Server crash
+modify the video output
+denial of service
+kernel panic
+accessing freed kernel pages
+read the environment variables of another process that is still spawning
+inject arbitrary HTML and web script
+denial of service
+inject arbitrary HTML and web script
+inject arbitrary HTML and web script
+execute arbitrary code
+denial of service
+panic
+read portions of kernel memory
+execute arbitrary code
+gain privileges
+denial of service
+kernel crash
+modify sensitive memory in a setuid program
+execute arbitrary code
+incorrect mapped image
+execute arbitrary code
+create
+buffer overflows
+denial of service
+hang
+execute arbitrary code
+read non-readable ELF binaries
+denial of service
+kernel oops
+inject arbitrary HTML and web script
+execute arbitrary code
+create arbitrary shortcuts on the client
+execute arbitrary code
+gain privileges
+write to arbitrary memory locations
+execute arbitrary code
+read keyboard input from other applications within the same window session
+replay credentials
+read
+Store files
+read files and resource fork content
+bypass Apache file handles
+exit applications
+execute arbitrary code
+false sense of security for the user
+send mail without authentication
+access mailboxes of other users
+denial of service
+denial of service
+denial of service
+free unallocated memory
+denial of service
+execute arbitrary code
+execute arbitrary code
+buffer overflows
+bypass antivirus protection
+denial of service
+application crash
+execute arbitrary code
+bypass virus scanning capabilities
+bypass authentication
+gain
+unauthorized access
+execute arbitrary web script or HTML
+denial of service
+server crash
+leak sensitive pathname information
+attack
+backslash
+gain sensitive information
+gain sensitive information
+the web root
+spoof a legitimate URL in the status bar
+gain sensitive information
+execute arbitrary web script or HTML
+overwrite arbitrary files
+overwrite arbitrary files
+denial of service
+CPU consumption
+system freeze
+overwrite arbitrary files
+denial of service
+dropped traffic
+bypass the buffer overflow protection
+execute arbitrary SQL commands
+execute arbitrary code
+gain privileges
+gain privileges
+gain privileges
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+spoof the URL displayed in the status bar
+launch dialog boxes
+spoof the dialog boxes from web sites
+denial of service
+server crash
+escape the chroot jail
+unauthorized activities
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+inject arbitrary SQL commands
+delete mail metadata or e-mail addresses of contacts
+execute arbitrary web script or HTML
+execute arbitrary code
+inject arbitrary HTML and web script
+denial of service
+execute arbitrary code
+denial of service
+service crash
+denial of service
+application crash
+denial of service
+execute arbitrary code
+read
+execute arbitrary commands
+denial of service
+application crash
+denial of service
+application hang
+fill available disk space
+denial of service
+application crash
+access previously-freed memory
+denial of service
+CPU consumption
+guess passwords
+gain privileges
+access to restricted Java classes
+bypass sandbox restrictions
+read
+write arbitrary files
+inject arbitrary HTML and web script
+execute arbitrary commands
+read arbitrary files
+gain privileges
+execute arbitrary code
+modify kernel memory
+gain privileges
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+spoof arbitrary web sites
+spoof arbitrary web sites
+spoof arbitrary web sites
+spoof arbitrary web sites
+spoof arbitrary web sites
+bypass intended access restrictions
+execute arbitrary programs
+bypass intended access restrictions
+execute arbitrary programs
+denial of service
+CPU consumption
+denial of service
+process crash
+execute arbitrary FTP commands
+execute arbitrary FTP commands
+commands to be inserted into the
+overwrite arbitrary files
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary commands
+obtain usernames and passwords for remote resources such as SMB shares
+execute arbitrary code
+bypass the popup blocker
+DHTML
+denial of service
+execute arbitrary programs
+denial of service
+execute arbitrary code
+inject arbitrary web script or HTML
+overwrite arbitrary files
+denial of service
+application crash
+overwrite arbitrary files
+authenticate and bypass intended access restrictions
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary commands
+denial of service
+application crash
+execute arbitrary code
+buffer overflow
+array index out-of-bounds error
+execute arbitrary code
+unauthorized write activities
+modify the firmware of associated SCSI devices
+"read unauthorized memory from ""foreign memory pages"
+execute arbitrary code
+bypass the intrusion prevention features
+denial of service
+application crash
+denial of service
+application crash
+read arbitrary memory
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+denial of service
+application crash from memory consumption
+denial of service
+application crash from memory exhaustion
+denial of service
+application crash from memory consumption
+denial of service
+application crash from memory exhaustion
+inject arbitrary web script or HTML
+gain sensitive information
+denial of service
+application crash
+buffer overflow
+gain sensitive information
+read arbitrary files
+dot dot
+denial of service
+server crash
+denial of service
+application crash
+execute arbitrary code
+modify the price of the items that they purchase
+inject arbitrary web script or HTML
+denial of service
+application crash
+execute arbitrary code
+download arbitrary files
+dot dot
+inject arbitrary web script or HTML
+execute arbitrary code
+denial of service
+server disconnect
+denial of service
+server freeze
+view arbitrary directories
+denial of service
+application crash
+read the administrator's password hash
+conduct brute force password guessing attacks
+denial of service
+client crash
+read arbitrary files
+execute arbitrary commands
+gain sensitive information
+hijack raw sockets
+execute arbitrary SQL commands
+gain privileges
+record parameters in other functionality
+gain sensitive information
+read arbitrary files
+execute arbitrary PHP code
+dot dot
+obtain the MySQL administrative password in cleartext from an installation form
+denial of service
+inject arbitrary web script or HTML
+gain sensitive information and read files from the _cache directory of other users
+read arbitrary files
+dot dot
+execute arbitrary code
+denial of service
+disk consumption
+denial of service
+system crash
+execute arbitrary code
+execute arbitrary code
+denial of service
+system crash
+execute arbitrary code
+execute arbitrary code
+buffer overflow
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+corrupt the file
+fail
+control output to passwd.new
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+overwrite the files that are being uploaded
+overwrite arbitrary files
+execute arbitrary code
+execute arbitrary code
+execute arbitrary commands
+overwrite arbitrary files
+dot dot
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+use the server as an SMTP spam relay
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+denial of service
+network service
+overwrite arbitrary files
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary code
+denial of service
+resource exhaustion
+hang
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+BMP
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+denial of service
+emails to remain in IIS or Exchange mail queues
+gain privileges
+spoof arbitrary web sites
+execute arbitrary PHP code
+denial of service
+application crash
+prevents a string from being NULL terminated
+execute arbitrary code
+inject arbitrary HTML and web script
+prevents the rest of the query from being properly sanitized
+inject arbitrary web script into other domains
+gain unauthorized access
+gain unauthorized access
+gain
+unauthorized access and change configuration settings
+read outgoing or incoming e-mail messages
+denial of service
+kernel crash
+execute arbitrary web script in the Local computer zone
+determine the existence of files on the local system
+execute arbitrary code
+execute arbitrary code
+gain elevated privileges
+execute arbitrary programs
+execute arbitrary code
+"bypass the ""File Download - Security Warning"" dialog"
+save arbitrary files with arbitrary extensions
+execute arbitrary code
+denial of service
+kernel crash
+buffer overflow
+denial of service
+kernel crash
+buffer overflow
+denial of service
+memory consumption
+overwrite arbitrary files
+gain privileges
+gain privileges
+add arbitrary functions to the
+execute the user-supplied functions
+execute arbitrary SQL commands
+obtain sensitive information
+inject arbitrary web script or HTML
+bypass authentication
+denial of service
+server crash
+gain root access
+denial of service
+kernel panic
+denial of service
+XDM crash
+denial of service
+process crash
+view or modify these files
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute certain commands with additional privileges
+obtain sensitive information in conjunction
+denial of service
+system panic
+denial of service
+system panic
+hide the source of their activities
+avoid having their activity logged
+execute arbitrary code as the uucp user
+overwrite arbitrary files
+execute arbitrary code
+bypass access restrictions for certain procedures
+execute arbitrary code
+access arbitrary libraries
+execute arbitrary commands as the Oracle user
+gain DBA privileges
+"obtain that password and use it against SYS or SYSTEM accounts, which may have been installed with the same password"
+execute arbitrary files
+denial of service
+listener crash
+execute arbitrary SQL commands
+gain privileges
+execute arbitrary code
+execute arbitrary code
+denial of service
+application crash
+execute arbitrary code
+execute arbitrary code
+gain privileges
+gain privileges
+overwrite arbitrary files
+dot dot
+overwrite arbitrary files
+denial of service
+application crash
+execute arbitrary code
+background
+launch dialog boxes
+spoof the dialog boxes from web sites in other windows
+background
+focus on input being entered in the active tab
+steal sensitive data that is intended for other sites
+overwrite arbitrary files
+execute arbitrary SQL statements
+inject arbitrary web script or HTML
+gain sensitive information
+upload and execute arbitrary PHP scripts
+overwrite
+create arbitrary files
+execute arbitrary code
+execute arbitrary commands
+execute arbitrary code
+execute arbitrary programs
+bypass the open_basedir setting
+read arbitrary files
+denial of service
+system hang
+execute profile commands with additional privileges
+denial of service
+connection refused
+denial of service
+application crash
+CPU consumption
+inject arbitrary web script or HTML
+execute arbitrary code
+read arbitrary files
+dot dot
+gain
+unauthorized access
+execute arbitrary SQL statements
+bypass authentication
+execute arbitrary SQL commands
+execute arbitrary PHP code
+upload and execute arbitrary code
+upload and execute arbitrary code
+inject arbitrary SQL commands
+read arbitrary files
+delete arbitrary files
+upload and execute arbitrary files
+inject arbitrary web script or HTML
+inject arbitrary web script
+denial of service
+infinite loop
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+denial of service
+application hang
+execute arbitrary SQL commands
+denial of service
+application crash
+execute arbitrary code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+execute arbitrary PHP code
+gain sensitive information
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+read arbitrary session files for known session IDs
+dot dot
+read arbitrary files
+execute arbitrary PHP files
+dot dot
+execute arbitrary PHP code
+dot dot
+determine valid usernames
+guess passwords
+execute arbitrary SQL code
+read arbitrary files
+denial of service
+control card reset
+denial of service
+control card reset
+denial of service
+control card reset
+denial of service
+control card reset
+gain
+unauthorized access
+execute arbitrary code
+write access to the repository
+read unauthorized parts of the repository
+execute arbitrary code
+execute arbitrary code
+write memory before the beginning of its buffer
+denial of service
+client crash
+execute arbitrary code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+view arbitrary files
+dot dot
+gain privileges
+denial of service
+device reboot
+hang
+gain sensitive information
+in the IMAGES module
+upload PHP files
+execute arbitrary code
+determine the location of files on a user's hard drive
+read arbitrary files in known locations
+trick users into clicking on unknown or untrusted sites
+execute arbitrary commands as root
+"gain sensitive information, such as the list of symbols used"
+denial of service
+device reload
+execute arbitrary code
+execute arbitrary commands
+denial of service
+ABEND
+IKE.NLM
+denial of service
+hang
+denial of service
+device crash
+gain
+unauthorized access to AAA clients
+bypass authentication
+gain
+unauthorized access to administrator functions
+revert
+delete
+unknown impact
+denial of service
+refused VTY
+virtual terminal
+execute arbitrary code
+upload and execute execute arbitrary scripts before they are deleted
+inject arbitrary web script or HTML
+execute arbitrary commands
+execute arbitrary code
+modify expected HTML content from the server
+denial of service
+application crash
+execute arbitrary code
+denial of service
+device freeze
+bypass filtering
+determine whether the device is running services
+isakmp
+alter the firewall's configuration file
+execute arbitrary code
+execute arbitrary code
+execute arbitrary web script or HTML
+hijack a user's session
+session fixation attack
+bypass access restrictions
+execute arbitrary code
+bypass authentication
+gain access to arbitrary scripts
+unknown impact
+execute arbitrary code
+execute arbitrary code
+gain privileges
+overwrite certain files
+inject terminal escape sequences
+execute arbitrary code
+"gain sensitive information, such as user names and the installation directory"
+spoof file types in the download dialog
+execute arbitrary code
+denial of service
+game exit
+fail
+denial of service
+server crash
+buffer overflow
+denial of service
+CPU consumption
+application exit
+execute arbitrary code
+denial of service
+application crash
+read arbitrary files
+dot dot backslash
+encoded dot dot slash
+gain privileges
+execute arbitrary SQL commands
+execute arbitrary web script or HTML
+denial of service
+application crash
+denial of service
+CPU and memory consumption
+denial of service
+socket exhaustion
+denial of service
+Java exception
+failed DNS requests
+wrap around and become negative
+gain sensitive information
+read arbitrary files
+execute PHP code
+dot dot
+inject arbitrary web script
+inject CRLF sequences
+modify expected HTML content from the server
+execute arbitrary local PHP scripts
+gain sensitive information
+gain privileges
+execute arbitrary code
+execute arbitrary web script or HTML
+inject carriage return characters into the log file
+spoof log entries
+denial of service
+fail
+restart properly
+execute arbitrary SQL statements
+modify expected HTML content from the server
+bypass Active Link Filtering
+execute arbitrary SQL command
+execute arbitrary SQL commands
+execute arbitrary code
+read arbitrary files
+denial of service
+application crash
+denial of service
+application crash
+denial of service
+game interruption
+denial of service
+application crash
+kick other players off the server
+modify cookies in other domains
+hijack web sessions
+gain sensitive information
+execute arbitrary web script
+execute arbitrary SQL commands
+execute arbitrary SQL commands
+gain access
+denial of service
+service crash
+denial of service
+application instability
+system hang
+execute arbitrary PHP code
+execute arbitrary SQL commands
+execute arbitrary web script
+execute arbitrary SQL commands
+denial of service
+client crash
+reset the router configuration file
+execute arbitrary commands
+denial of service
+server
+client crash
+list arbitrary directories
+dot dot
+execute arbitrary web script as other users
+upload
+execute arbitrary code
+denial of service
+application crash
+denial of service
+application crash
+buffer overflow
+upload arbitrary files
+dot dot
+gain sensitive information
+bypass authentication
+log on as an administrator
+obtain sensitive information
+execute arbitrary web script or HTML
+execute arbitrary SQL statements
+execute arbitrary SQL statements
+execute arbitrary PHP code
+run arbitrary SQL commands
+denial of service
+application crash
+bypass authentication
+modify configuration
+read arbitrary files
+denial of service
+crash
+execute arbitrary code
+inject arbitrary web script or HTML
+denial of service
+mssqlserver service halt
+buffer overflow
+execute arbitrary code
+execute arbitrary SQL commands
+execute arbitrary web script or HTML
+modify expected HTML content from the server
+reveal the full path
+execute arbitrary web script or HTML
+gain privileges
+read arbitrary files
+denial of service
+execute arbitrary code
+execute arbitrary SQL commands
+gain sensitive information
+list files in those directories
+execute arbitrary PHP code
+gain privileges as the administrator
+execute arbitrary code
+denial of service
+CPU consumption
+denial of service
+application crash
+gain sensitive information
+execute arbitrary web script or HTML
+gain sensitive information
+execute arbitrary SQL commands
+gain sensitive information
+execute arbitrary PHP code
+read or write arbitrary files
+dot dot
+modify expected HTML content from the server
+denial of service
+application crash
+ignore disconnecting commands
+stay connected
+denial of service
+application crash
+execute arbitrary SQL code
+execute inject web script or HTML
+gain sensitive information
+gain access
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+execute arbitrary web script
+execute arbitrary code
+gain sensitive information such as passwords and router settings
+denial of service
+device reboot
+possibly data corruption
+read arbitrary files
+execute arbitrary web script or HTML
+gain sensitive information
+access arbitrary files
+execute local PHP scripts
+dot dot
+identify valid usernames
+read arbitrary files
+chown arbitrary files
+chmod arbitrary files
+bypass authentication
+denial service
+application crash
+obtain sensitive information
+execute arbitrary SQL statements
+other sensitive information in the headers of
+gain access
+create arbitrary files and execute code
+execute arbitrary SLX commands on the server
+spoof the server
+obtain the database password
+upload arbitrary files
+dot dot
+denial of service
+application crash
+null dereference or infinite loop
+denial of service
+application crash
+invalid memory access
+denial of service
+invalid memory reference
+application crash
+denial of service
+memory consumption
+denial of service
+infinite loop
+denial of service
+application crash
+execute arbitrary code
+modify expected HTML content from the server
+execute arbitrary web script or HTML
+execute arbitrary SQL statements
+denial of service
+infinite loop in Explorer
+gain privileges
+denial of service
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute arbitrary SQL statements
+execute arbitrary web script or HTML
+conduct port scans of remote hosts
+infer the results
+inject arbitrary web script or HTML
+modify the keywords in a bug
+gain sensitive information
+review flags
+obtain sensitive information
+viewing the bug activity log
+execute arbitrary code
+obtain sensitive information
+execute arbitrary code
+denial of service
+application crash
+memory consumption
+execute arbitrary web script and HTML
+denial of service
+crash
+denial of service
+crash
+denial of service
+CPU consumption
+denial of service
+refuse connections
+execute arbitrary web script or HTML
+read arbitrary files
+dot dot
+execute arbitrary SQL statements
+bypass authentication
+inject arbitrary web script or HTML
+change the IP address of the camera
+inject arbitrary web script or HTML
+gain administrative privileges
+perform a port bounce
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+modify expected HTML content from the server
+inject arbitrary web script or HTML
+bypass the Application Security feature
+execute arbitrary processes
+restore the running kernel's SDT ServiceTable
+inject arbitrary web script or HTML
+execute arbitrary PHP code
+bypass authentication
+gain privileges
+obtain sensitive information
+denial of service
+freeze
+possible data corruption
+denial of service
+game end
+inject arbitrary web script or HTML
+execute arbitrary code
+denial of service
+server crash
+execute arbitrary SQL commands
+execute arbitrary web script or HTML
+create arbitrary directories
+dot dot
+rename arbitrary files
+doubled dot dot
+gain sensitive information
+view other users' attachments
+create text files with arbitrary content
+delete arbitrary files
+move arbitrary files
+denial of service
+application crash
+STOU
+execute arbitrary code
+gain sensitive information
+read portions of arbitrary files
+execute arbitrary Perl modules
+create arbitrary files
+denial of service
+VxWorks OS crash
+buffer overflow
+gain privileges
+gain group bin privileges
+gain privileges
+obtain sensitive information
+bypass authentication
+bypass the Information Bar prompt
+Javascript
+modify expected HTML content from the server
+denial of service
+infinite loop and CPU consumption
+read arbitrary files
+execute arbitrary web script or HTML
+denial of service
+CPU consumption
+crash
+inject arbitrary web script or HTML
+execute arbitrary PHP code
+gain unauthorized access
+bypass authentication for the remote administration feature
+slash
+denial of service
+application crash
+guess valid usernames
+denial of service
+application crash
+several alert dialogs to be displayed
+denial of service
+web interface errors
+inject arbitrary HTML or web script
+execute arbitrary code
+denial of service
+crash
+add user accounts
+gain privileges
+denial of service
+denial of service
+device crash
+execute arbitrary code
+gain root privileges
+denial of service
+crash
+obtain the PINs of other users
+execute arbitrary commands
+inject arbitrary web script or HTML
+inject arbitrary Javascript
+corrupt data files
+denial of service
+crash
+modify configuration
+read arbitrary files
+inject arbitrary web script or HTML
+execute arbitrary code
+denial of service
+crash
+inject arbitrary web script or HTML
+gain sensitive information
+read arbitrary PHP files
+execute arbitrary SQL statements
+obtain sensitive information
+set the permissions on the fusion
+backups directory to world read
+write
+execute
+download or
+view database backups
+have easily guessable filenames and contain the administrator username and password
+execute arbitrary code
+execute arbitrary code
+denial of service
+refuse HTTP connections
+execute arbitrary code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+send e-mail bombs
+execute arbitrary SQL commands
+read arbitrary files
+dot dot
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+gain sensitive information
+execute arbitrary SQL commands
+bypass authentication
+inject arbitrary web script or HTML
+denial of service
+crash
+read arbitrary files
+denial of service
+crash
+view arbitrary files
+dot dot
+view arbitrary files
+denial of service
+CPU consumption
+crash
+denial of service
+crash
+execute arbitrary code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+denial of service
+crash
+denial of service
+CPU consumption
+denial of service
+crash
+denial of service
+client
+server crash
+execute arbitrary code
+draw to other tabs
+spoof tabs
+poison the DNS cache
+gain privileges
+spoof other users or servers
+gain privileges
+gain privileges
+denial of service
+CPU consumption
+gain administrator privileges
+denial of service
+segmentation fault
+bypass FASV
+denial of service
+crash
+execute arbitrary code
+gain root privileges
+execute arbitrary code
+obtain sensitive information
+gain privileges
+denial of service
+crash
+reset their password
+execute arbitrary code
+execute arbitrary code
+bypass intended permissions
+view private appointments of other users
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+read and modify device configuration
+read and modify device configuration data
+DOCSIS
+denial of service
+application crash
+modify language files
+conduct social engineering
+inject arbitrary web script or HTML
+deposit extra time into Internet kiosk accounts
+crash Surfnet
+access the underlying operating system
+execute arbitrary commands
+read
+create arbitrary files
+slash dot dot
+execute arbitrary code
+execute arbitrary SQL commands
+gain access to sensitive information
+execute arbitrary SQL commands
+obtain sensitive information
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+gain access
+denial of service
+infinite loop
+execute arbitrary code
+inject arbitrary web script or HTML
+access the underlying filesystem
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+"execute arbitrary script in the ""My Computer"" zone"
+bypass intended packet filters
+gain access
+read arbitrary files
+dot dot
+hide their IP address
+the IP address to be displayed as $IP$ on the administration web page
+denial of service
+denial of service
+crash
+execute arbitrary code
+execute SQL commands
+inject arbitrary web script or HTML
+overwrite arbitrary files
+inject arbitrary web script or HTML
+denial of service
+crash
+compromise the trusted certificates
+execute arbitrary code
+bypass authentication
+read protected files
+dot dot
+denial of service
+memory consumption
+denial of service
+memory consumption
+inject arbitrary web script or HTML
+execute arbitrary script as other users
+obtain sensitive information
+execute arbitrary PHP code
+gain privileges
+unauthorized database operations
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+inject arbitrary web script
+uninstall Vcard
+delete database tables
+inject arbitrary web script or HTML
+obtain sensitive information
+denial of service
+crash
+denial of service
+crash
+restart
+gain database administrative privileges
+gain sensitive information
+execute arbitrary SQL
+execute arbitrary SQL
+inject arbitrary web script or HTML
+download arbitrary files
+dot dot
+obtain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary SQL
+gain administrative privileges
+execute arbitrary SQL
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL code
+bypass authentication
+gain administrator privileges
+denial of service
+disk consumption
+bypass file size restrictions
+inject arbitrary web script or HTML
+denial of service
+infinite loop
+obtain sensitive information
+gain sensitive information
+denial of service
+execute arbitrary code
+gain sensitive information
+upload arbitrary files to the printer directory
+read arbitrary files
+dot dot
+denial of service
+crash
+read arbitrary files
+dot dot
+denial of service
+server disconnect
+execute arbitrary code
+encrypt passwords
+obtain passwords
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+denial of service
+crash
+inject arbitrary web script or HTML
+execute arbitrary code
+denial of service
+crash
+read unallocated memory
+gain users' passwords
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+gain privileges
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary commands
+spoof the login page
+inadvertently reveal their username and password
+bypass authentication
+obtain sensitive information
+gain access
+inject arbitrary web script or HTML
+denial of service
+memory consumption
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+execute arbitrary code
+execute arbitrary code
+gain access
+execute arbitrary programs as SYSTEM
+view directories or download files
+execute arbitrary commands
+denial of service
+hang
+denial of service
+hang
+unknown impact
+preventing the actions of anonymous users from being logged
+execute arbitrary code
+obtain sensitive information
+execute arbitrary SQL commands
+overwrite arbitrary files
+overwrite arbitrary files
+execute arbitrary code
+denial of service
+segmentation fault
+decrement a null pointer
+out-of-bounds read
+execute arbitrary code
+execute arbitrary code
+overwrite arbitrary files
+gain sensitive information
+execute arbitrary code
+execute arbitrary code
+denial of service
+crash
+denial of service
+possibly arbitrary code
+buffer overflow
+denial of service
+crash
+obtain sensitive information
+denial of service
+crash
+denial of service
+crash
+inject arbitrary web script or HTML
+obtain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+denial of service
+connection exhaustion
+prevents the socket from being closed properly
+denial of service
+crash
+gain access
+gain access
+denial of service
+memory consumption
+gain sensitive information
+reveal the web server
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+inject arbitrary code
+determine the existence of arbitrary files
+dot dot
+upload and possibly execute arbitrary files
+bypass authentication
+gain access
+inject arbitrary web script or HTML
+execute arbitrary SQL code
+create an administrator account
+bypass access controls
+read unauthorized messages
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+bypass e-mail protection
+read or include arbitrary files
+modify arbitrary GLOBAL variables
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+denial of service
+crash
+denial of service
+from
+use ypcat
+extract the contents of a secure map
+execute arbitrary PHP code
+denial of service
+crash
+execute arbitrary code
+execute arbitrary code
+obtain sensitive information such as system drives and contents
+download
+execute arbitrary code
+obtain sensitive information
+execute arbitrary SQL
+spoof IP addresses
+overwrite arbitrary files
+execute arbitrary SQL commands
+gain privileges
+gain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary SQL code
+gain information
+inject arbitrary web script or HTML
+overwrite arbitrary files
+dot dot
+gain sensitive information
+inject arbitrary web script or HTML
+bypass SQL injection protection
+execute limited SQL commands
+bypass SQL injection filters
+obtain sensitive information
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+execute arbitrary code
+read arbitrary messages
+execute arbitrary script
+gain administrative access
+gain sensitive information
+execute arbitrary SQL code
+denial of service
+CPU consumption
+gain sensitive information
+inject arbitrary web script or HTML
+gain access
+denial of service
+crash
+inject arbitrary HTML and web script
+inject arbitrary HTML or web script
+view arbitrary files
+dot dot
+denial of service
+disk exhaustion
+modify records in the board
+txt file
+denial of service
+infinite loop
+obtain sensitive information
+inject arbitrary HTML or web script
+read arbitrary files
+dot dot
+execute arbitrary commands
+execute arbitrary PHP code
+execute arbitrary PHP code
+gain sensitive information
+view arbitrary files
+dot dot
+denial of service
+crash
+execute arbitrary commands
+ban other users
+create arbitrary accounts
+inject arbitrary web script
+gain privileges
+gain sensitive information
+inject arbitrary HTML and web script
+execute arbitrary SQL
+denial of service
+execute arbitrary code
+gain privileges
+execute arbitrary code
+disable virus protection
+inject arbitrary HTML or web script
+execute arbitrary SQL
+obtain the full path of the server
+execute arbitrary PHP code
+denial of service
+crash
+gain root privileges
+execute arbitrary code
+allocate 0 bytes of memory
+overwrite arbitrary files
+inject arbitrary HTML or web script
+execute arbitrary code
+inject arbitrary HTML or web script
+execute arbitrary PHP code
+obtain sensitive information
+inject arbitrary HTML or web script into the
+view arbitrary files
+dot dot
+denial of service
+crash
+execute arbitrary code
+execute arbitrary SQL
+gain administrative privileges
+execute arbitrary SQL commands
+execute arbitrary code
+denial of service
+crash
+inject arbitrary web script or HTML
+denial of service
+crash
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+bypass the keyword based URL filtering
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+inject arbitrary SQL commands
+denial of service
+crash
+execute arbitrary code
+inject arbitrary web script or HTML
+obtain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary PHP code
+inject arbitrary SQL code
+gain sensitive information
+denial of service
+crash
+directly access scripts
+obtain path information
+gain access
+denial of service
+device reboot
+denial of service
+retrieve arbitrary files
+dot dot
+gain access
+gain access
+gain privileges
+read arbitrary files
+conduct brute force password guessing
+execute arbitrary PHP code
+modify expected HTML content from the server
+inject arbitrary HTMl or web script
+execute arbitrary SQL statements
+execute arbitrary SQL statements
+gain sensitive information
+inject arbitrary web script or HTML
+obtain the database
+use the
+read arbitrary local files
+execute arbitrary SQL
+inject arbitrary HTML or web script
+inject arbitrary web script
+bypass the extension filtering rule
+execute arbitrary SQL code
+bypass authentication
+execute arbitrary SQL and bypass authentication
+denial of service
+process hang
+denial of service
+connection consumption
+execute arbitrary commands
+bypass authentication in the web interface
+execute script on other clients
+gain access to the filesystem outside the virtual server
+denial of service
+crash
+denial of service
+infinite loop
+inject arbitrary web script or HTML
+denial of service
+server crash
+denial of service
+reboot
+loss of logged events
+buffer overflow
+bypass authentication
+prevents
+Red-Alert from correctly identifying the SSID
+denial of service
+pmsystem.exe crash
+denial of service
+pmsystem.exe crash
+trick users into executing a malicious file
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+denial of service
+crash
+execute arbitrary code
+gain access as a logged-in user
+bypass virus scanning
+DSN
+denial of service
+crash
+determine the existence of arbitrary files
+false sense of security
+delete
+examine sensitive information
+inject arbitrary HTML or web script as other users
+identify IP addresses that are being simulated
+execute arbitrary script as other users
+overwrite arbitrary files
+execute arbitrary script as other users
+execute arbitrary code
+bypass authentication
+access unauthorized files
+denial of service
+crash
+buffer overflow
+inject arbitrary web script or HTML
+process arbitrary script or HTML as other users
+obtain sensitive server information
+including the internal IP address
+read arbitrary .htt files
+list directories
+use the finjan-parameter-type header
+restart the service
+view log information
+use the online command to force a policy update
+execute arbitrary SQL commands
+execute arbitrary script
+steal the user session ID
+execute arbitrary SQL commands
+execute arbitrary code
+read arbitrary files
+dot dot
+inject arbitrary web script or HTML
+execute arbitrary code
+execute arbitrary script as other users
+read
+download arbitrary files
+dot dot
+denial of service
+crash
+denial of service
+crash
+buffer overflow
+inject arbitrary web script or HTML
+denial of service
+CPU consumption
+read
+download arbitrary files
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+modify the HTTP
+PHP remote file inclusion attack
+gain system privileges
+modify BlackICE configuration
+execute arbitrary code
+read arbitrary files
+dot dot
+execute arbitrary script as other users
+denial of service
+crash
+buffer overflow
+execute arbitrary script or HTML
+execute arbitrary code
+read arbitrary files
+dot dot
+execute arbitrary code
+decrypt the passwords
+the BCC recipients of the message to the addresses listed in the To and CC fields
+obtain sensitive information
+inject arbitrary HTML and PHP code
+execute arbitrary code
+modify text file contents
+unknown impact
+execute arbitrary SQL commands
+bypass authentication
+obtain system access
+execute arbitrary SQL commands
+conduct HTTP response splitting attacks
+denial of service
+crash
+unknown impact
+denial of service
+determine valid account names
+denial of service
+memory consumption
+application crash
+inject arbitrary web script or HTML
+unknown impact
+bypass intended ACLs
+bypass its authentication mechanism
+unknown impact
+inject arbitrary HTML and PHP code
+execute arbitrary SQL commands
+unknown impact
+denial of service
+execute arbitrary code
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+bypass authentication
+denial of service
+connection consumption
+denial of service
+crash from unallocated memory write
+print arbitrary text without authentication
+execute arbitrary code
+denial of service
+CPU consumption
+POP3
+denial of service
+application crash
+read arbitrary files
+inject arbitrary web script or HTML
+encrypt passwords
+obtain the password
+execute arbitrary SQL commands
+inject arbitrary Javascript
+execute arbitrary SQL commands
+create a local listening port that bypasses the ICF access controls
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+denial of service
+hang
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+hijack user sessions
+execute arbitrary shell commands
+read
+write arbitrary files
+execute arbitrary scripts
+execute arbitrary SQL commands
+unknown impact
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+unknown impact
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+denial of service
+crash
+execute arbitrary PHP code
+obtain the full path of the web server
+execute arbitrary programs
+change the passwords for arbitrary users
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+bypass authentication
+execute other commands on the server's underlying database
+gain access to web readable directories
+unauthorized activities
+obtain administrative passwords
+gain root access
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+conduct HTTP response splitting attacks
+execute arbitrary SQL commands
+steal cookie-based authentication information
+perform other exploits
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+obtain the source code for scripts
+bypass access restrictions
+access the terminals of other users
+gain privileges
+denial of service
+crash
+denial of service
+segmentation fault
+modify SQL statements
+spoof the address bar
+navigate to the previous domain
+bypass anti-virus protection
+execute arbitrary code
+list arbitrary directories
+denial of service
+crash
+resize the image
+denial of service
+crash
+delete arbitrary files in the download directory
+determine valid e-mail addresses
+CSS
+trick users into downloading files with dangerous extensions
+gain privileges
+gain privileges
+denial of service
+panic
+corrupt memory
+overwrite arbitrary files
+modify SQL statements
+unknown impact
+log in as administrators
+unknown impact
+unknown impact
+language setting
+unknown impact
+unknown impact
+denial of service
+execute arbitrary code
+modify SQL statements
+inject arbitrary HTML or web script
+inject arbitrary HTML or web script
+hijack sessions of other users
+denial of service
+CPU and memory consumption
+inject arbitrary HTML or web script
+inject arbitrary HTML or web script
+unknown impact
+unknown impact
+oversize submissions
+unknown impact
+bypass of IP address restrictions
+unknown impact
+bypass of IP address restrictions
+construct specialized attacks
+obtain information about the system
+construct specialized attacks
+read arbitrary files
+bypass authentication for the administration interface
+read arbitrary files
+execute local PHP files
+read arbitrary files
+execute local PHP files
+access the Image Manager to upload or delete images without authorization
+access certain options
+denial of service
+crash
+redirect to other sites
+inject arbitrary script or HTML
+execute arbitrary code
+modify SQL statements
+denial of service
+execute arbitrary code
+impact
+modify SQL statements
+inject arbitrary HTML or web script
+obtain the database password
+execute arbitrary code
+execute arbitrary commands as root
+execute arbitrary code
+denial of service
+daemon crash
+denial of service
+daemon crash
+unknown impact
+execute arbitrary commands
+bypass initial detection
+denial of service
+crash
+execute arbitrary code
+unknown impact
+execute arbitrary script as other users
+denial of service
+crash
+unknown impact
+bypass URL filters
+bypass URL filters
+execute arbitrary commands
+denial of service
+crash
+execute arbitrary code
+buffer overflow
+read arbitrary files
+dot dot
+spoof parts of a website
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+execute the target script
+denial of service
+application crash
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+obtain sensitive information
+denial of service
+CPU and memory consumption
+read and write mail store data if the administrator does not change the credential
+execute arbitrary code
+execute arbitrary code
+denial of service
+crash
+read kernel memory
+denial of service
+crash
+read and overwrite files
+denial of service
+execute arbitrary code
+bypass virus scanning
+scan only the password protected file
+skip the other files
+disables mail alerts
+escape detection
+denial of service
+browser crash
+inject arbitrary web script or HTML
+browse outside the FTP root
+dot dot slash
+inject arbitrary web script or HTML
+create folders or determine the existence of files
+dot dot
+gain privileges
+guess the root password
+gain access
+denial of service
+crash
+denial of service
+crash
+obtain sensitive information
+temporary
+denial of service
+crash
+overwrite files
+read arbitrary files
+steal information using cross-site tracing
+XST
+obtain administrator passwords
+execute arbitrary SQL queries
+obtain sensitive information
+including the SQL server username and password
+modify the backend database
+inject arbitrary web script or HTML
+bypass authentication
+denial of service
+crash
+denial of service
+infinite loop
+execute arbitrary code with SYSTEM privileges
+denial of service
+bypass sandbox security restrictions
+obtain sensitive information
+access trusted Java objects
+inject arbitrary web script or HTML
+read uploaded files
+inject arbitrary web script or HTML
+gain privileges
+read directories and files on the server
+obtain user POP3 credentials
+bypass access restrictions
+execute arbitrary code as kernel
+read
+write kernel memory
+execute arbitrary SQL commands
+execute arbitrary code
+denial of service
+server crash
+perform the same operations
+denial of service
+denial of service
+obtain sensitive information
+inject arbitrary web script or HTML
+execute arbitrary commands
+denial of service
+hang
+execute arbitrary SQL queries
+execute arbitrary SQL
+gain privileges
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+obtain sensitive information
+modify SQL statements
+inject arbitrary web script or HTML
+denial of service
+crash
+read or modify the backend database
+inject arbitrary web script or HTML
+gain privileges
+denial of service
+infinite loop
+enter an infinite loop while waiting to read the rest of the data
+denial of service
+crash
+obtain the physical path of PHPX
+bypass the check for literal
+execute arbitrary commands
+denial of service
+memory exhaustion
+denial of service
+crash
+denial of service
+crash
+execute arbitrary PHP code
+create and detect directories
+dot dot
+execute arbitrary code
+denial of service
+hang
+execute arbitrary code
+use a shell
+exploit other vulnerabilities that involve predictable locations
+obtain the location of the server installation path
+denial of service
+crash
+execute arbitrary code
+digest
+denial of service
+crash
+execute arbitrary code
+denial of service
+reboot
+denial of service
+unusable
+server
+inject arbitrary web script or HTML
+write arbitrary files
+dot dot
+denial of service
+memory usage
+application crash
+denial of service
+browser crash
+bypass cross-frame scripting restrictions
+capture keyboard events from other domains
+maintain focus
+denial of service
+crash
+obtain sensitive path information
+home directory
+execute arbitrary code
+execute arbitrary code
+structure to be overwritten by the authenticate function and assign privileges to the wrong user
+denial of service
+infinite loop
+denial of service
+denial of service
+denial of service
+crash
+disk consumption
+read failures
+falsely authenticate peers
+use the first 78 characters of a password
+denial of service
+memory consumption
+unknown impact
+safe and proper operation
+steal digital certificates
+determine valid usernames and conduct brute force attacks
+denial of service
+CPU consumption
+gain access to the credentials
+execute arbitrary code
+inject arbitrary web script or HTML
+unauthorized actions as the administrative user
+bypass scanning
+denial of service
+crash
+module restart
+unknown
+impact
+unknown
+set permissions
+obtain system information
+denial of service on other virtual servers
+execute arbitrary code
+denial of service
+null pointer dereference
+conduct cross-site scripting
+execute arbitrary SQL commands
+execute arbitrary SQL commands
+obtain the passwords
+denial of service
+resource consumption
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+obtain usernames and passwords
+denial of service
+daemon halt
+bypass authentication
+gain administrator rights
+denial of service
+crash
+denial of service
+crash
+denial of service
+network port consumption
+prevents the server from releasing the network port when the session ends
+execute arbitrary commands
+bypass authentication
+dot dot
+conduct other activities
+obtain sensitive information
+modify system information
+denial of service
+reboot
+obtain sensitive information such as the plaintext username and password
+execute arbitrary code
+gain SYSTEM privileges
+bypass authentication
+denial of service
+crash
+execute arbitrary code
+denial of service
+browser crash
+save the link
+inject arbitrary web script or HTML
+gain privileges
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+upgrade firmware
+obtain proxy credentials
+username or password
+unknown impact
+bypass antivirus protection
+prevent the compressed file from being opened on the target system
+bypass authentication
+inject arbitrary web script or HTML
+view arbitrary files
+dot dot
+read arbitrary files
+dot dot
+inject arbitrary web script or HTML
+obtain sensitive information such as the database name
+denial of service
+application crash
+obtain sensitive information
+send audio to arbitrary channels
+obtain sensitive information in the
+unknown impact
+obtain sensitive information such as hashed passwords
+obtain sensitive information
+gain privileges
+download the nvram file
+"extracting the username, password, and other data from the file"
+execute arbitrary SQL commands
+denial of service
+crash
+creates new directories
+create arbitrary directories
+"obtain passwords, related to the password table"
+denial of service
+application crash
+denial of service
+crash
+execute arbitrary code
+overwrite arbitrary files
+denial of service
+web server crash
+execute arbitrary code
+read arbitrary files or list directories
+inject arbitrary web script or HTML
+denial of service
+server crash
+buffer overflow
+add a large number of fake users
+denial of service
+server crash
+inject arbitrary web script or HTML
+modify or delete reservations
+unknown impact
+execute arbitrary SQL commands
+denial of service
+CPU consumption
+overwrite arbitrary files
+execute arbitrary SQL commands
+inject arbitrary web script
+denial of service
+infinite loop
+crash
+disable the process guard protection system
+read arbitrary files
+dot dot
+obtain sensitive information
+fail
+bypass security controls
+access arbitrary websites
+connect to arbitrary hosts from the MyProxy server
+bypassing access restrictions
+download the URI in the data property of the OBJECT tag
+execute arbitrary code
+poison the DNS cache
+denial of service
+connection loss
+inject arbitrary web script or HTML
+include arbitrary files and directories
+gain access
+read or list arbitrary files
+backslash dot dot
+read or list arbitrary files
+execute arbitrary code
+execute arbitrary code
+fill in the address bar
+spoof the URL in the address bar
+inject arbitrary web script or HTML
+read arbitrary .html files
+inject arbitrary web script or HTML
+denial of service
+CPU consumption
+denial of service
+service
+availability loss
+inject arbitrary web script or HTML
+determine internal directory structures
+denial of service
+unknown impact
+execute arbitrary code
+overwrite arbitrary files
+denial of service
+crash
+gain privileges
+denial of service
+memory consumption
+crash
+obtain sensitive information
+read arbitrary files
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+spoof web content
+poison web caches
+execute arbitrary code
+inject arbitrary web script or HTML
+execute arbitrary code
+list arbitrary directories
+denial of service
+crash
+obtain sensitive information
+denial of service
+CPU consumption
+denial of service
+application crash
+denial of service
+application crash
+inject arbitrary web script or HTML
+execute arbitrary code
+obtain plaintext username and password credentials
+encode the desired user ID
+inject arbitrary web script or HTML
+view arbitrary files
+dot dot
+denial of service
+CPU and memory consumption
+multiple copies of Windows Utility Manager to be loaded more quickly
+inject arbitrary web script or HTML
+"bypass the ""image send"" option"
+spoof the file extension on transmitted files
+denial of service
+CPU consumption
+execute arbitrary commands
+denial of service
+application crash
+denial of service
+connection consumption
+post messages to unauthorized private groups
+access the per-TSS pointers
+access restricted memory locations
+gain privileges
+unknown impact
+execute arbitrary code
+denial of service
+panic
+reboot
+other impacts
+denial of service
+JVM unresponsive
+execute arbitrary code
+execute arbitrary SQL commands
+execute stored procedures
+bypass login authentication
+unspecified denial of service to backend databases
+denial of service
+proxy failure
+obtain sensitive information
+denial of service
+SMTP proxy failure
+denial of service
+memory consumption
+obtain sensitive information
+inject arbitrary web script or HTML
+denial of service
+service crash
+buffer overflow
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+create a new HelpBox user account
+read
+delete data from the backend database
+execute arbitrary code
+obtain global IRC operator privileges
+execute arbitrary code with SYSTEM privileges
+relate
+calculate the Administrator password if they know the Control password and password recovery key
+modify the configuration
+modify the configuration
+hijack sessions of authenticated users
+access administrative functionality
+execute arbitrary code
+execute arbitrary SQL commands
+execute arbitrary SQL commands
+obtain sensitive information such as user names
+database information
+scripting
+inject arbitrary web script or HTML
+read arbitrary files
+dot dot backslash
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+overwrite arbitrary files
+modify properties and methods of the location object and execute Javascript to read arbitrary files from the client's local filesystem or display a false URL to the user
+execute arbitrary code
+execute arbitrary code
+execute arbitrary code
+obtain sensitive information
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+obtain sensitive information
+obtain sensitive information from these files
+obtain sensitive information
+unknown impacts
+sniff passwords
+bypass access control rules of an unspecified component
+obtain login credentials
+denial of service
+obtain sensitive information
+denial of service
+CPU consumption
+create a folder that SmarterMail cannot delete or rename
+inject arbitrary web script or HTML
+read arbitrary files
+denial of service
+buffer overflow
+obtain sensitive information such as the configuration of the web server and the PHP application
+denial of service
+application crash
+allocate memory
+unknown impact
+recover the data
+denial of service
+application crash
+denial of service
+crash
+execute arbitrary code
+read arbitrary files
+denial of service
+application crash
+crash when it cannot read data
+denial of service
+exhaustion of connection slots
+bypass IP-based access control rules
+find the client's IP address
+corrupt the server's client state data structure
+prevents a mod from being notified of changes in the client state
+denial of service
+application crash
+obtain sensitive information
+read local files
+execute PHP code
+execute arbitrary PHP code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+overwrite arbitrary files
+login to an administration web page
+read portions of kernel memory
+prevents
+read loop from filling a buffer
+obtain sensitive information such as the unencrypted username and password of the administrator's account
+obtain sensitive information
+unencrypted password for a Windows domain account
+buffer overflow
+gain privileges
+write access to the configuration file
+gain privileges
+conduct other unauthorized activities
+use the functionality intended for authorized users
+denial of service
+crash
+execute arbitrary code
+insert false news
+delete news
+gain privileges
+other unknown impact
+obtain sensitive information
+read files outside of the web root
+dot dot
+inject arbitrary web script or HTML
+bypass e-mail protection
+man-in-the-middle
+MITM
+gain administrator access
+unknown attack vectors and impact
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+send unauthorized SMS messages
+escape the Kilobyte Virtual Machine
+KVM
+sandbox
+execute arbitrary code
+read arbitrary files
+denial of service
+execute arbitrary commands
+execute arbitrary PHP code
+modify configuration settings
+gain
+unauthorized access to MySQL servers
+gain access to repositories of other users
+overwrite arbitrary files
+access the Windows registry
+read source code of scripts
+bypass intended security restrictions
+"access files in the ""admin/"" directory"
+create or modify posts
+read arbitrary files
+dot dot
+denial of service
+system controller hang
+spoof the identity of the sender
+overwrite files
+unknown impact
+unknown impact
+denial of service
+uncaught NullPointerException
+denial of service
+CPU consumption
+denial of service
+FreezeX application
+obfuscate URLs displayed in the status bar
+denial of service
+memory consumption
+prevents a lock from being released and causes a memory leak
+inject arbitrary web script or HTML
+denial of service
+crash
+gain privileges
+denial of service
+segmentation fault
+the password to be entered into the active window when the user unlocks the screen
+inject arbitrary web script or HTML
+view the records
+uninstall the application
+uninstall user data
+spoof terminals and login types
+construct a race condition that tricks a user into clicking Open
+denial of service
+memory consumption
+write requests
+obtain sensitive information
+CGI source code
+denial of service
+resource consumption
+crash
+hold resources
+create files with arbitrary content
+obtain sensitive information
+denial of service
+obtain sensitive information
+private bug details
+inject arbitrary web script or HTML
+execute arbitrary SQL commands
+execute arbitrary SQL commands
+obtain the installation path
+inject arbitrary web script or HTML
+obtain sensitive information
+upload
+denial of service
+execute arbitrary code
+determine the existence of arbitrary files
+denial of service
+crash
+gain privileges
+execute arbitrary code
+gain privileges
+obtain potentially sensitive information
+IKE
+return a response containing version and other information
+return portions of previously freed memory
+hijack a session
+obtain the server's private key
+access arbitrary files on a server
+access certain files on a server
+execute arbitrary code
+load arbitrary kernel modules
+execute arbitrary commands
+inject arbitrary web script or HTML
+gain
+unauthorized administrative access
+upload and execute arbitrary code instead of video files
+denial of service
+device reset
+bypass restrictions
+execute arbitrary commands
+gain privileges
+bypass intended access restrictions
+load content from arbitrary sources into the Outlook context
+phishing attacks
+execute arbitrary SQL statements
+unexpected user identity
+gain privileges
+denial of service
+IMWheel crash
+modify arbitrary files
+delete arbitrary product images
+upload arbitrary files with executable extensions
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+bypass scanning
+attachment to be rendered inline
+"obtain attributes of arbitrary accounts, including the password hash"
+denial of service
+crash
+unknown impact
+buffer overflows
+obtain user passwords
+denial of service
+execute arbitrary code
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+execute arbitrary code
+denial of service
+crash
+denial of service
+unknown actions
+bypass authentication
+gain administrative privileges
+execute arbitrary SQL commands
+read arbitrary files
+dot dot
+obtain sensitive information including database passwords
+execute arbitrary code
+inject arbitrary web script or HTML
+determine the private key and decrypt messages
+obtain passwords
+obtain passwords
+denial of service
+server crash
+client CPU consumption
+inject arbitrary web script or HTML
+denial of service
+null dereference
+application crash
+denial of service
+application crash
+denial of service
+application crash
+execute arbitrary code
+access the shares with elevated privileges
+execute arbitrary code
+obtain sensitive information
+determine the access key
+block arbitrary IP addresses
+modify topics
+bypass access control to the WEB-INF folder
+inject arbitrary web script or HTML
+bypass authentication
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+modify system configuration
+include arbitrary PHP code
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+RPT
+copy or overwrite arbitrary files
+unknown impact
+security update release
+read arbitrary files
+dot dot
+execute arbitrary SQL commands
+determine the existence of arbitrary files
+dot dot
+determine the installation path
+read arbitrary files
+dot dot
+read arbitrary files
+execute arbitrary SQL commands
+inject arbitrary HTML and web script
+access unspecified files
+denial of service
+execute arbitrary SQL commands
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+inject arbitrary web script or HTML
+denial of service
+segmentation fault
+process crash
+read portions of deleted files
+guess the password
+denial of service
+daemon crash
+hang
+steal information using cross-site tracing
+XST
+gain privileges
+read data from other applets
+inject arbitrary web script or HTML
+"obtain unspecified ""access"" to e-mail"
+denial of service
+connection slot exhaustion
+gain privileges
+list hidden files
+execute arbitrary commands
+execute arbitrary commands
+unspecified impact
+read
+write to restricted directories
+execute restricted commands
+denial-of-service
+DoS
